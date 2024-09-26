@@ -11,4 +11,5 @@ DatosEcu offers over 300 time series tracking various aspects of the Ecuadorian 
 ## R Installation
 
 ```devtools::install_github("guerreroda/RDatosEcu")```
-```library("RDatosEcu")```
+
+```library(RDatosEcu)```
