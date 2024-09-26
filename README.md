@@ -7,3 +7,8 @@ DatosEcu offers over 300 time series tracking various aspects of the Ecuadorian 
     ./dict.xlsx: Correspondences between ticket and series name.
     files/: Contains all the time series data in CSV format.
     r_pack/: Includes an R package to download and work with the data.
+
+## R Installation
+
+```devtools::install_github("guerreroda/RDatosEcu")```
+```library("RDatosEcu")```
