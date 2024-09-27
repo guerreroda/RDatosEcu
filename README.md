@@ -5,6 +5,7 @@ To find tickets and variables see dict.xlsx
 ## Installation
 
 ```
+install.packages("devtools")
 devtools::install_github("guerreroda/RDatosEcu")
 library(RDatosEcu)
 ```
