@@ -6,6 +6,9 @@ To find tickets and variables see dict.xlsx
 
 ```
 install.packages("devtools")
+install.packages("zoo")
+install.packages("Rcurl")
+install.packages("readr")
 devtools::install_github("guerreroda/RDatosEcu")
 library(RDatosEcu)
 ```
