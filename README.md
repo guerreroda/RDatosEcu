@@ -10,11 +10,11 @@ install.packages("zoo")
 install.packages("Rcurl")
 install.packages("readr")
 devtools::install_github("guerreroda/RDatosEcu")
-library(RDatosEcu)
 ```
 
 ### Example
 
 ```
+library(RDatosEcu)
 df <- RDatosEcu("RGDP0000 UNTL1007")
 ```
