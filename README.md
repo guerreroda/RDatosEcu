@@ -1,6 +1,8 @@
 # RDatosEcu
 
-To find tickets and variables see dict.xlsx
+This package allows for downloading updated statistics for Ecuador.
+
+Tickets and variables are described in dict.xlsx
 
 ## Installation
 
