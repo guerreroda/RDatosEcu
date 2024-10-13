@@ -10,52 +10,7 @@
 #' @import lubridate
 #' @import dplyr
 #' @examples
-#' RDatosEcu("RGDP0000 UNTL1007")
-
-
-get_data <- function(
-    FileName,
-    url = "https://raw.githubusercontent.com/guerreroda/PublicEcuador/refs/heads/main/files/"
-){
-
-  name_file = paste0( FileName , ".csv")
-  #print(name_file)
-  GET <- paste0(
-    url ,
-    name_file
-  )
-  #print(GET)
-  myCsv <- getURL(GET)
-  mydata <- read.csv(textConnection(myCsv))
-  mydata <- mydata[-nrow(mydata), ]
-
-  mydata$date <- as.Date(mydata$date, format = "%Y-%m-%d")
-  column_name <- FileName
-  mydata[[column_name]] <- as.numeric(mydata[[column_name]])
-
-  return(mydata)
-}
-
-
-get_dict <- function(
-    FileName,
-    url = "https://raw.githubusercontent.com/guerreroda/PublicEcuador/refs/heads/main/files/"
-){
-
-  name_file = paste0( FileName , ".csv")
-  #print(name_file)
-  GET <- paste0(
-    url ,
-    name_file
-  )
-
-  #print(GET)
-  myCsv <- getURL(GET)
-  mydata <- read.csv(textConnection(myCsv))
-  mydata <- mydata[-nrow(mydata), ]
-  return(mydata)
-}
-
+#' df <- RDatosEcu("RGDP0000 UNTL1007")
 
 
 RDatosEcu <- function(ticket, real=FALSE) {
@@ -111,6 +66,49 @@ RDatosEcu <- function(ticket, real=FALSE) {
   return(merged_data)
 }
 
+
+get_data <- function(
+    FileName,
+    url = "https://raw.githubusercontent.com/guerreroda/PublicEcuador/refs/heads/main/files/"
+){
+
+  name_file = paste0( FileName , ".csv")
+  #print(name_file)
+  GET <- paste0(
+    url ,
+    name_file
+  )
+  #print(GET)
+  myCsv <- getURL(GET)
+  mydata <- read.csv(textConnection(myCsv))
+  mydata <- mydata[-nrow(mydata), ]
+
+  mydata$date <- as.Date(mydata$date, format = "%Y-%m-%d")
+  column_name <- FileName
+  mydata[[column_name]] <- as.numeric(mydata[[column_name]])
+
+  return(mydata)
+}
+
+
+get_dict <- function(
+    FileName,
+    url = "https://raw.githubusercontent.com/guerreroda/PublicEcuador/refs/heads/main/files/"
+){
+
+  name_file = paste0( FileName , ".csv")
+  #print(name_file)
+  GET <- paste0(
+    url ,
+    name_file
+  )
+
+  #print(GET)
+  myCsv <- getURL(GET)
+  mydata <- read.csv(textConnection(myCsv))
+  mydata <- mydata[-nrow(mydata), ]
+  return(mydata)
+}
 
 adjust_inflation <- function( data, index, base = 1) {
 
