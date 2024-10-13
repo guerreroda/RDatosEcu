@@ -5,9 +5,9 @@
 #' Real takes arguments TRUE, FALSE, or a new base year. The default is FALSE.
 #' Output: DataFrame
 #' @import readr
-#' @import RCurl
-#' @import lubridate
 #' @import dplyr
+#' @import curl
+#' @import lubridate
 #' @examples
 #' RDatosEcu("RGDP0000 UNTL1007")
 
@@ -26,7 +26,6 @@ RDatosEcu <- function(ticket, real=FALSE) {
     } else {
       merged_data <- merge(merged_data, mydata, by = "date", all = TRUE)
     }
-    Sys.sleep(0.5)
   }
 
   rm(main, TARGET)
@@ -40,8 +39,11 @@ RDatosEcu <- function(ticket, real=FALSE) {
     # Select observations that are available in the data.
     dict <- dict %>%
       select(ticket, nominal)
+    mycols <- intersect(dict$ticket, colnames(merged_data))
     dict <- dict %>%
-      filter( ticket %in% intersect(dict$ticket, colnames(merged_data)) )
+      filter( ticket %in% mycols )  %>%
+      bind_rows(tibble(ticket = "date", nominal = 1)) %>%
+      bind_rows(tibble(ticket = "date", nominal = 0))
 
     #break merged_data into those that are nominal, and those that are real
     nominal_df <- merged_data %>%
@@ -77,14 +79,20 @@ get_data <- function(
     name_file
   )
   #print(GET)
-  myCsv <- getURL(GET)
-  mydata <- read.csv(textConnection(myCsv))
+  #myCsv <- getURL(GET, ssl.verifypeer = FALSE, curl=curl)
+  h <- new_handle()
+  handle_setopt( h , ssl_verifypeer = FALSE)
+  myCsv <- curl_fetch_memory(GET, handle = h)
+  csvContent <- rawToChar(myCsv$content)
+  mydata <- read.csv(text = csvContent)
+#  mydata <- read.csv(textConnection(myCsv))
   mydata <- mydata[-nrow(mydata), ]
 
   mydata$date <- as.Date(mydata$date, format = "%Y-%m-%d")
   column_name <- FileName
   mydata[[column_name]] <- as.numeric(mydata[[column_name]])
 
+  Sys.sleep(1)
   return(mydata)
 }
 
@@ -102,13 +110,16 @@ get_dict <- function(
   )
 
   #print(GET)
-  myCsv <- getURL(GET)
-  mydata <- read.csv(textConnection(myCsv))
+  #myCsv <- getURL(GET)
+  h <- new_handle()
+  handle_setopt( h , ssl_verifypeer = FALSE)
+  myCsv <- curl_fetch_memory( GET, handle=h )
+  csvContent <- rawToChar(myCsv$content)
+  mydata <- read.csv(text = csvContent)
+  #mydata <- read.csv(textConnection(myCsv))
   mydata <- mydata[-nrow(mydata), ]
   return(mydata)
 }
-
-
 
 #' @export
 adjust_inflation <- function( data, index, base = 1) {
@@ -123,8 +134,8 @@ adjust_inflation <- function( data, index, base = 1) {
   merged_data <- merge( data , index , by = "date")
 
   # Apply adjustment only to selected columns
-  numeric_cols <- sapply( data , is.numeric)
-  merged_data[ , numeric_cols ] <- merged_data[ , numeric_cols ] * merged_data$adjust
+  target_cols <- setdiff(colnames(merged_data), c("date", "adjust"))
+  merged_data[ , target_cols ] <- merged_data[ , target_cols ] * merged_data$adjust
 
   # Keep only original columns
   merged_data <- merged_data[, names(data)]

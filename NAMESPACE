@@ -2,7 +2,7 @@
 
 export(RDatosEcu)
 export(adjust_inflation)
-import(RCurl)
+import(curl)
 import(dplyr)
 import(lubridate)
 import(readr)
