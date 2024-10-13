@@ -3,16 +3,18 @@
 \name{RDatosEcu}
 \alias{RDatosEcu}
 \title{Author: Diego Guerrero
-This function downloads from the RDatosEcu github folder
+This function downloads from the RDatosEcu github folder.
 Ticket: input a string with all tickets required
+Real: transforms nominal variables into real. TRUE, FALSE, or base year. Default is FALSE.
 Output: DataFrame file}
 \usage{
-RDatosEcu(ticket, bulk_file = 1)
+RDatosEcu(ticket, real = FALSE)
 }
 \description{
 Author: Diego Guerrero
-This function downloads from the RDatosEcu github folder
+This function downloads from the RDatosEcu github folder.
 Ticket: input a string with all tickets required
+Real: transforms nominal variables into real. TRUE, FALSE, or base year. Default is FALSE.
 Output: DataFrame file
 }
 \examples{

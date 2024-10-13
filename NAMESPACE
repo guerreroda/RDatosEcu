@@ -2,5 +2,6 @@
 
 export(RDatosEcu)
 import(RCurl)
+import(lubridate)
 import(readr)
 import(zoo)
