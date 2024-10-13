@@ -4,15 +4,14 @@
 #' Real: transforms nominal variables into real.
 #' Real takes arguments TRUE, FALSE, or a new base year. The default is FALSE.
 #' Output: DataFrame
-#' @export
 #' @import readr
 #' @import RCurl
 #' @import lubridate
 #' @import dplyr
 #' @examples
-#' df <- RDatosEcu("RGDP0000 UNTL1007")
+#' RDatosEcu("RGDP0000 UNTL1007")
 
-
+#' @export
 RDatosEcu <- function(ticket, real=FALSE) {
   main <- "http://raw.githubusercontent.com/guerreroda/PublicEcuador/refs/heads/main/files/"
   TARGET <- unlist(strsplit(ticket, " "))
@@ -66,7 +65,6 @@ RDatosEcu <- function(ticket, real=FALSE) {
   return(merged_data)
 }
 
-
 get_data <- function(
     FileName,
     url = "https://raw.githubusercontent.com/guerreroda/PublicEcuador/refs/heads/main/files/"
@@ -110,6 +108,9 @@ get_dict <- function(
   return(mydata)
 }
 
+
+
+#' @export
 adjust_inflation <- function( data, index, base = 1) {
 
   # Define CPI on base year

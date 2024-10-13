@@ -5,8 +5,9 @@
 \title{Author: Diego Guerrero
 This function downloads from the RDatosEcu github folder.
 Ticket: input a string with all tickets required
-Real: transforms nominal variables into real. TRUE, FALSE, or base year. Default is FALSE.
-Output: DataFrame file}
+Real: transforms nominal variables into real.
+Real takes arguments TRUE, FALSE, or a new base year. The default is FALSE.
+Output: DataFrame}
 \usage{
 RDatosEcu(ticket, real = FALSE)
 }
@@ -14,8 +15,9 @@ RDatosEcu(ticket, real = FALSE)
 Author: Diego Guerrero
 This function downloads from the RDatosEcu github folder.
 Ticket: input a string with all tickets required
-Real: transforms nominal variables into real. TRUE, FALSE, or base year. Default is FALSE.
-Output: DataFrame file
+Real: transforms nominal variables into real.
+Real takes arguments TRUE, FALSE, or a new base year. The default is FALSE.
+Output: DataFrame
 }
 \examples{
 RDatosEcu("RGDP0000 UNTL1007")
