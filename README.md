@@ -8,9 +8,6 @@ Tickets and variables are described in dict.xlsx
 
 ```
 install.packages("devtools")
-install.packages("zoo")
-install.packages("Rcurl")
-install.packages("readr")
 devtools::install_github("guerreroda/RDatosEcu")
 ```
 
