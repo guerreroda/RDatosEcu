@@ -75,7 +75,7 @@ RDatosEcu <- function(ticket, real=FALSE, retry = 10, export.path=FALSE) {
     merged_data <- merge( real_df, adj_df, by = "date", all = TRUE)
   }
 
-  if (export!=FALSE) {
+  if ( export.path != FALSE ) {
     save_file(merged_data,export.path)
   }
   return(merged_data)
