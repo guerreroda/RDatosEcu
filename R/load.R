@@ -1,18 +1,29 @@
+#' RDatosEcu
+#' @name RDatosEcu
+#' @description
 #' Author: Diego Guerrero
-#' This function downloads from the RDatosEcu github folder.
-#' Ticket: input a string with all tickets required
-#' Real: transforms nominal variables into real.
-#' Real takes arguments TRUE, FALSE, or a new base year. The default is FALSE.
-#' Output: DataFrame
+#' `RDatosEcu()` returns df with time series from the RDatosEcu github folder.
+#'
+#' `adjust_inflation()` transform series into real values
+#'
+#' `flatten_data()` TBD
 #' @import readr
 #' @import dplyr
 #' @import curl
 #' @import lubridate
+#' @import openxlsx
+#' @param Ticket: string with all tickets.
+#' @param retry: connection attempts default is 10.
+#' @param real: TRUE, FALSE, or base year. Transforms nominal variables into real. default is FALSE
+#' @param export.path: specify path and file name with extension (csv of xlsx)
+#' @returns DataFrame.
 #' @examples
 #' RDatosEcu("RGDP0000 UNTL1007")
+#' RDatosEcu("RGDP0000 UNTL1007", retry=10)
+#' RDatosEcu("RGDP0000 UNTL1007", retry=10, export.path="FileName.csv")
 
 #' @export
-RDatosEcu <- function(ticket, real=FALSE) {
+RDatosEcu <- function(ticket, real=FALSE, retry = 10, export.path=FALSE) {
   main <- "http://raw.githubusercontent.com/guerreroda/PublicEcuador/refs/heads/main/files/"
   TARGET <- unlist(strsplit(ticket, " "))
 
@@ -64,12 +75,16 @@ RDatosEcu <- function(ticket, real=FALSE) {
     merged_data <- merge( real_df, adj_df, by = "date", all = TRUE)
   }
 
+  if (export!=FALSE) {
+    save_file(merged_data,export.path)
+  }
   return(merged_data)
 }
 
 get_data <- function(
     FileName,
-    url = "https://raw.githubusercontent.com/guerreroda/PublicEcuador/refs/heads/main/files/"
+    url = "https://raw.githubusercontent.com/guerreroda/PublicEcuador/refs/heads/main/files/",
+    max.attempts = 5
 ){
 
   name_file = paste0( FileName , ".csv")
@@ -80,12 +95,28 @@ get_data <- function(
   )
   #print(GET)
   #myCsv <- getURL(GET, ssl.verifypeer = FALSE, curl=curl)
-  h <- new_handle()
-  handle_setopt( h , ssl_verifypeer = FALSE)
-  myCsv <- curl_fetch_memory(GET, handle = h)
+
+  attempt <- 0
+  success <- FALSE
+
+  while(attempt < max.attempts && !success) {
+    tryCatch({
+      attempt <- attempt + 1
+      h <- new_handle()
+      handle_setopt( h , ssl_verifypeer = FALSE)
+      myCsv <- curl_fetch_memory(GET, handle = h)
+      success <- TRUE
+    }, error = function(e) {
+      message(paste("Connection attempt", attempt, "failed:", e$message))
+      if (attempt <= max.attempts) {
+        Sys.sleep(3)
+      }
+    })
+  }
+
   csvContent <- rawToChar(myCsv$content)
   mydata <- read.csv(text = csvContent)
-#  mydata <- read.csv(textConnection(myCsv))
+# mydata <- read.csv(textConnection(myCsv))
   mydata <- mydata[-nrow(mydata), ]
 
   mydata$date <- as.Date(mydata$date, format = "%Y-%m-%d")
@@ -119,6 +150,26 @@ get_dict <- function(
   #mydata <- read.csv(textConnection(myCsv))
   mydata <- mydata[-nrow(mydata), ]
   return(mydata)
+}
+
+save_file <- function(df, file_path) {
+  # Extract the file extension
+  file_ext <- tools::file_ext(file_path)
+
+  # Save based on the file extension
+  if (file_ext == "csv") {
+    write.csv(df, file = file_path, row.names = FALSE)
+  } else if (file_ext == "xlsx") {
+    # Ensure you have the 'openxlsx' package installed
+    library(openxlsx)
+    write.xlsx(df, file = file_path)
+  } else if (file_ext == "rds") {
+    saveRDS(df, file = file_path)
+  } else if (file_ext == "txt") {
+    write.table(df, file = file_path, row.names = FALSE, col.names = TRUE, sep = "\t", quote = FALSE)
+  } else {
+    stop("Unsupported file extension. Please use '.csv', '.xlsx', '.rds', or '.txt'.")
+  }
 }
 
 #' @export

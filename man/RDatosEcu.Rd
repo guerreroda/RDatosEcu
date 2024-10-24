@@ -2,23 +2,32 @@
 % Please edit documentation in R/load.R
 \name{RDatosEcu}
 \alias{RDatosEcu}
-\title{Author: Diego Guerrero
-This function downloads from the RDatosEcu github folder.
-Ticket: input a string with all tickets required
-Real: transforms nominal variables into real.
-Real takes arguments TRUE, FALSE, or a new base year. The default is FALSE.
-Output: DataFrame}
+\title{RDatosEcu}
 \usage{
-RDatosEcu(ticket, real = FALSE)
+RDatosEcu(ticket, real = FALSE, retry = 10, export.path = FALSE)
+}
+\arguments{
+\item{Ticket:}{string with all tickets.}
+
+\item{retry:}{connection attempts default is 10.}
+
+\item{real:}{TRUE, FALSE, or base year. Transforms nominal variables into real. default is FALSE}
+
+\item{export.path:}{specify path and file name with extension (csv of xlsx)}
+}
+\value{
+DataFrame.
 }
 \description{
 Author: Diego Guerrero
-This function downloads from the RDatosEcu github folder.
-Ticket: input a string with all tickets required
-Real: transforms nominal variables into real.
-Real takes arguments TRUE, FALSE, or a new base year. The default is FALSE.
-Output: DataFrame
+`RDatosEcu()` returns df with time series from the RDatosEcu github folder.
+
+`adjust_inflation()` transform series into real values
+
+`flatten_data()` TBD
 }
 \examples{
 RDatosEcu("RGDP0000 UNTL1007")
+RDatosEcu("RGDP0000 UNTL1007", retry=10)
+RDatosEcu("RGDP0000 UNTL1007", retry=10, export.path="FileName.csv")
 }
