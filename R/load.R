@@ -1,12 +1,11 @@
 #' RDatosEcu
+#' @title RDatosEcu
 #' @name RDatosEcu
 #' @description
 #' Author: Diego Guerrero
+#' \code{RDatosEcu} downloads selected data.
 #' `RDatosEcu()` returns df with time series from the RDatosEcu github folder.
 #'
-#' `adjust_inflation()` transform series into real values
-#'
-#' `flatten_data()` TBD
 #' @import readr
 #' @import dplyr
 #' @import curl
@@ -21,7 +20,6 @@
 #' RDatosEcu("RGDP0000 UNTL1007")
 #' RDatosEcu("RGDP0000 UNTL1007", retry=10)
 #' RDatosEcu("RGDP0000 UNTL1007", retry=10, export.path="FileName.csv")
-
 #' @export
 RDatosEcu <- function(ticket, real=FALSE, retry = 10, export.path=FALSE) {
   main <- "http://raw.githubusercontent.com/guerreroda/PublicEcuador/refs/heads/main/files/"
@@ -30,7 +28,7 @@ RDatosEcu <- function(ticket, real=FALSE, retry = 10, export.path=FALSE) {
   merged_data <- data.frame()
 
   for (t in 1:length(TARGET)) {
-    mydata <- get_data(TARGET[t])
+    mydata <- get_data(TARGET[t] , max.attempts = retry)
 
     if (nrow(merged_data) == 0) {
       merged_data <- mydata
@@ -76,11 +74,14 @@ RDatosEcu <- function(ticket, real=FALSE, retry = 10, export.path=FALSE) {
   }
 
   if ( export.path != FALSE ) {
-    save_file(merged_data,export.path)
+    save_file( merged_data, export.path)
   }
   return(merged_data)
 }
 
+#' @title get_data
+#' @name get_data
+#'
 get_data <- function(
     FileName,
     url = "https://raw.githubusercontent.com/guerreroda/PublicEcuador/refs/heads/main/files/",
@@ -93,8 +94,6 @@ get_data <- function(
     url ,
     name_file
   )
-  #print(GET)
-  #myCsv <- getURL(GET, ssl.verifypeer = FALSE, curl=curl)
 
   attempt <- 0
   success <- FALSE
@@ -127,7 +126,9 @@ get_data <- function(
   return(mydata)
 }
 
-
+#' @title get_dict
+#' @name get_dict
+#'
 get_dict <- function(
     FileName,
     url = "https://raw.githubusercontent.com/guerreroda/PublicEcuador/refs/heads/main/files/"
@@ -152,7 +153,10 @@ get_dict <- function(
   return(mydata)
 }
 
-save_file <- function(df, file_path) {
+#' @title save_file
+#' @name save_file
+#'
+save_file <- function( df, file_path) {
   # Extract the file extension
   file_ext <- tools::file_ext(file_path)
 
@@ -160,8 +164,6 @@ save_file <- function(df, file_path) {
   if (file_ext == "csv") {
     write.csv(df, file = file_path, row.names = FALSE)
   } else if (file_ext == "xlsx") {
-    # Ensure you have the 'openxlsx' package installed
-    library(openxlsx)
     write.xlsx(df, file = file_path)
   } else if (file_ext == "rds") {
     saveRDS(df, file = file_path)
@@ -172,6 +174,18 @@ save_file <- function(df, file_path) {
   }
 }
 
+#' @title adjust_inflation
+#' @name adjust_inflation
+#' @description
+#' Author: Diego Guerrero
+#' adjust_inflation() transform series into real values
+#' @param data: data frame with series to be adjusted.
+#' @param index: "cpi", "ipp", or "gdp" deflactor
+#' @returns DataFrame.
+#' @examples
+#' adjust_inflation(df, index="cpi"
+#' adjust_inflation(df, index="cpi", base=2024)
+#' adjust_inflation(df, index="gdp")
 #' @export
 adjust_inflation <- function( data, index, base = 1) {
 
@@ -193,3 +207,18 @@ adjust_inflation <- function( data, index, base = 1) {
   return(merged_data)
 }
 
+
+#' @title flatten_data
+#' @name flatten_data
+#' @description
+#' Author: Diego Guerrero
+#' flatten_data() transforms data shape to columns per lag.
+#' @param data: data frame with series to be adjusted.
+#' @param lags: number of lags to introduce.
+#' @param exclude: exclude columns
+#' @returns DataFrame.
+#' @examples
+#' TBD
+#' @export
+flatten_data <- function( data, lags, exclude) {
+}

@@ -1,7 +1,7 @@
 Package: RDatosEcu
 Type: Package
 Title: Datos Ecuador
-Version: 0.1.4
+Version: 0.1.5
 Author: Diego Guerrero
 Maintainer: Diego Guerrero <guerreroda@gmail.com>
 Description: Load Ecuador data in Ecuador. See https://github.com/guerreroda/PublicEcuador

@@ -2,6 +2,7 @@
 
 export(RDatosEcu)
 export(adjust_inflation)
+export(flatten_data)
 import(curl)
 import(dplyr)
 import(lubridate)
