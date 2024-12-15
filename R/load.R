@@ -28,7 +28,13 @@ RDatosEcu <- function(ticket, real=FALSE, retry = 10, export.path=FALSE) {
   merged_data <- data.frame()
 
   for (t in 1:length(TARGET)) {
+    # Download the data
     mydata <- get_data(TARGET[t] , max.attempts = retry)
+
+    #If it is GDP/Quarterly, transform into last day of the quarter:
+    if TARGET[t]=="RGDP0000"{
+      mydata$date <- ceiling_date(mydata$date, "quarter") - days(1)
+    }
 
     if (nrow(merged_data) == 0) {
       merged_data <- mydata
