@@ -32,7 +32,7 @@ RDatosEcu <- function(ticket, real=FALSE, retry = 10, export.path=FALSE) {
     mydata <- get_data(TARGET[t] , max.attempts = retry)
 
     #If it is GDP/Quarterly, transform into last day of the quarter:
-    if TARGET[t]=="RGDP0000"{
+    if (TARGET[t]=="RGDP0000"){
       mydata$date <- ceiling_date(mydata$date, "quarter") - days(1)
     }
 
