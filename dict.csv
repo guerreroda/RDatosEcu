@@ -1,319 +1,367 @@
-﻿ticket,var name,definition,category,file,source,url,nominal
-TEXP0100,exportaciones fob total,"Exportaciones FOB, Total",Trade,bce_bc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TEXP0110,exportaciones fob petroleras,"Exportaciones FOB, Petroleras",Trade,bce_bc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TEXP0120,exportaciones fob no petroleras,"Exportaciones FOB, No Petroleras",Trade,bce_bc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TIMP0100,importaciones fob total,"Importaciones FOB, Total",Trade,bce_bc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TIMP0110,importaciones fob petroleras,"importaciones FOB, Petroleras",Trade,bce_bc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TIMP0120,importaciones fob no petroleras,"Importaciones FOB, No petroleras",Trade,bce_bc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TBAL0000,balanza comercial total,"Balanza comercial, Total (comercio exterior)",Trade,bce_bc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TBAL0010,balanza comercial petrolera,"Balanza comercial, Petrolera (comercio exterior)",Trade,bce_bc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TBAL0020,balanza comercial no petrolera,"Balanza comercial, No petrolera (comercio exterior)",Trade,bce_bc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TACT0000,activos de reserva,Activos de reserva,Trade,bce_bp.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/SectorExterno/BalanzaPagos/indice.htm,1
-TBAL0001,balanza comercial,Balanza comercial BOP,Trade,bce_bp.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/SectorExterno/BalanzaPagos/indice.htm,1
-TACC0000,cuenta corriente,Cuenta corriente BOP,Trade,bce_bp.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/SectorExterno/BalanzaPagos/indice.htm,1
-TACC0010,cuenta de capital,Cuenta de capital,Trade,bce_bp.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/SectorExterno/BalanzaPagos/indice.htm,1
-TACC0020,cuenta financiera,Cuenta financiera BOP,Trade,bce_bp.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/SectorExterno/BalanzaPagos/indice.htm,1
-TINC0000,ingreso primario,Ingreso primario,Trade,bce_bp.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/SectorExterno/BalanzaPagos/indice.htm,1
-TINC0010,ingreso secundario,Ingreso secundario,Trade,bce_bp.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/SectorExterno/BalanzaPagos/indice.htm,1
-TSER0000,servicios,Servicios,Trade,bce_bp.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/SectorExterno/BalanzaPagos/indice.htm,0
-TEXP0201,oro polvo kg,"Exportaciones de Oro, En polvo (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0
-TEXP0202,oro las demas formas en bruto kg,"Exportaciones de Oro, En las demás formas en bruto (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0
-TEXP0203,oro las demas formas semilabradas kg,"Exportaciones de Oro, En las demás formas semilabradas (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0
-TEXP0204,oro para uso monetario kg,"Exportaciones de Oro, Para uso monetario (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0
-TEXP0205,oro minerales de oro y sus concentrados kg,"Exportaciones de Oro, Sus minerales y concentrados (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0
-TEXP0206,oro kg,Exportaciones de Oro (kilogramos),Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0
-TEXP0211,plata polvo kg,"Exportaciones de Plata, En polvo (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0
-TEXP0212,plata sin alear kg,"Exportaciones de Plata, Sin alear (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0
-TEXP0213,plata minerales de plata y sus concentrados kg,"Exportaciones de Plata, Sus minerales y concentrados (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0
-TEXP0221,cobre y sus concentrados kg,"Exportaciones de Cobre, Sus minerales y concentrados (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0
-TEXP0231,plomo y sus concentrados kg,"Exportaciones de Plomo, Sus minerales y concentrados (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0
-TEXP0222,cobre  a base de cobrecinc kg,"Exportaciones de Cobre, A base de cobre-cinc (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0
-TEXP0223,cobre  a base de cobreestano kg,"Exportaciones de Cobre, A base de cobre-estaño (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0
-TEXP0224,cobre  las demas kg,"Exportaciones de Cobre, Las demás formas (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0
-TEXP0232,plomo refinado kg,"Exportaciones de Plomo, Refinado (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0
-TEXP0233,plomo  con antimonio como el otro elemento predominante en peso kg,"Exportaciones de Plomo, Con antimonio como el otro elemento predominante en peso (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0
-TEXP0234,plomo  kg,Exportaciones de Plomo (kilogramos),Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0
-TEXP0230,plomo total kg exports,"Exportaciones de Plomo, Total (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0
-TEXP0200,oro total kg exports,"Exportaciones de Oro, Total (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0
-TEXP0220,cobre total kg exports,"Exportaciones de Cobre, Total (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0
-TEXP0210,plata total kg exports,"Exportaciones de Plata, Total (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0
-TEXP0000,total exportaciones   ,"Exportaciones, Total",Trade,bce_exports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TEXP0010,exportaciones petroleras    total,"Exportaciones petroleras, Total",Trade,bce_exports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TEXP0011,exportaciones petroleras   petroleo crudo,"Exportaciones petroleras, Petroleo crudo",Trade,bce_exports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TEXP0012,exportaciones petroleras   derivados,"Exportaciones petroleras, Derivados",Trade,bce_exports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TEXP0020,exportaciones no petroleras  total  ,"Exportaciones no petroleras, Total",Trade,bce_exports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TEXP0021,exportaciones no petroleras tradicionales total,"Exportaciones no petroleras: Tradicionales, Total",Trade,bce_exports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TEXP0022,exportaciones no petroleras tradicionales banano y platano,Exportaciones no petroleras: Banano y plátano,Trade,bce_exports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TEXP0023,exportaciones no petroleras tradicionales cafe y elaborados,Exportaciones no petroleras: Café y elaborados del mismo,Trade,bce_exports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TEXP0024,exportaciones no petroleras tradicionales camaron,Exportaciones no petroleras: Camarón,Trade,bce_exports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TEXP0025,exportaciones no petroleras tradicionales cacao y elaborados,Exportaciones no petroleras: Cacao y elaborados del mismo,Trade,bce_exports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TEXP0026,exportaciones no petroleras tradicionales atun y pescado,Exportaciones no petroleras: Atún y pescado,Trade,bce_exports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TEXP0027,exportaciones no petroleras  no tradicionales  ,"Exportaciones no petroleras: No tradicionales, Total",Trade,bce_exports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-RGDP0000,gdp_movil,"PIB Trimestral. Niveles de Volumen Encadenados, 2018 = 100 Miles de USD, Datos Ajustados de Estacionalidad",Real,bce_gdp.csv,BCE,https://contenido.bce.fin.ec/documentos/informacioneconomica/cuentasnacionales/ix_cuentasnacionalestrimestrales.html,0
-XICC0000,icc,Indice de Confianza del Consumidor,Expectations,bce_icc.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/SectorReal/Previsiones/IndCoyuntura/mensual/ICC_indice.htm,0
-RIDE0000,ideac,Indice de Actividad Económica Coyuntural (IDEAC),Real,bce_ideac.csv,BCE,https://www.bce.fin.ec/index.php/component/k2/item/313-indice-de-actividad-econ%C3%B3mica-coyuntural-ideac,0
-XIND0000,iee_global,Indice de Expectativas de la Economía Global,Expectations,bce_iee.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/Encuestas/EOE/eoeindice.htm,0
-XIND0001,iee_comercio,Indice de Expectativas de la Economía Comercio,Expectations,bce_iee.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/Encuestas/EOE/eoeindice.htm,0
-XIND0002,iee_construccion,Indice de Expectativas de la Economía Construcción,Expectations,bce_iee.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/Encuestas/EOE/eoeindice.htm,0
-XIND0003,iee_manufactura,Indice de Expectativas de la Economía Manufactura,Expectations,bce_iee.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/Encuestas/EOE/eoeindice.htm,0
-XIND0004,iee_servicios,Indice de Expectativas de la Economía Servicios,Expectations,bce_iee.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/Encuestas/EOE/eoeindice.htm,0
-TIMP0000,total importaciones  ,"Importaciones, Total",Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TIMP0010,importaciones bienes de consumo total,"Importaciones de bienes de consumo, Total",Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TIMP0011,importaciones bienes de consumo no duraderos,Importaciones de bienes de consumo: No duraderos,Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TIMP0012,importaciones bienes de consumo duraderos,Importaciones de bienes de consumo: Duraderos,Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TIMP0013,importaciones bienes de consumo  trafico postal internacional y correos rapidos,Importaciones de bienes de consumo: Tráfico postal internacional y correos rápidos,Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TIMP0020,importaciones combustibles y lubricantes  ,Importaciones de combustibles y lubricantes,Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TIMP0030,importaciones materias primas total,"Importaciones de materias primas, Total",Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TIMP0031,importaciones materias primas agricolas,Importaciones de materias primas: Agrícolas,Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TIMP0032,importaciones materias primas industriales,Importaciones de materias primas: Industriales,Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TIMP0033,importaciones materias primas materiales de construccion,Importaciones de materias primas: Materiales de construcción,Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TIMP0040,importaciones bienes de capital total,"Importaciones de bienes de capital, Total",Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TIMP0041,importaciones bienes de capital agricolas,Importaciones de bienes de capital: Agrícolas,Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TIMP0042,importaciones bienes de capital industriales,Importaciones de bienes de capital: Industriales,Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TIMP0043,importaciones bienes de capital equipos de transporte,Importaciones de bienes de capital: Equipos de transporte,Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-TIMP0050,importaciones diversos  ,Importaciones: Diversos,Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1
-MBCE0000,banco central reservas internacionales ri,Reservas internacionales del Banco Central,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,
-MBCE0001,banco central pasivos monetarios pm,Pasivos monetarios del Banco Central,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MBCE0002,banco central emision monetaria em,Emisión monetaria del Banco Central,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MBCE0003,banco central dinero electronico de,Dinero electrónico del Banco Central,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MBCE0004,banco central reservas bancarias,Reservas bancarias del Banco Central,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MPFN0000,panorama financiero depositos a la vista,Panorama financiero de depósitos a la vista,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MPFN0010,panorama financiero cuasidinero total,"Panorama financiero de cuasi-dinero, Total",Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MPFN0011,panorama financiero cuasidinero ahorro,Panorama financiero de cuasi-dinero: Ahorro,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MPFN0012,panorama financiero cuasidinero plazo,Panorama financiero de cuasi-dinero: Plazo,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MPFN0013,panorama financiero cuasidinero restringido,Panorama financiero de cuasi-dinero: Restringido,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MPFN0014,panorama financiero cuasidinero operaciones de reporto,Panorama financiero de cuasi-dinero: Operaciones de reporto,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MPFN0015,panorama financiero cuasidinero otros depositos,Panorama financiero de cuasi-dinero: Otros depósitos,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MPFN0020,panorama financiero credito al sector privado total,"Panorama financiero de crédito al sector privado, Total",Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MPFN0021,panorama financiero credito al sector privado cartera,Panorama financiero de crédito al sector privado: Cartera,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MPFN0022,panorama financiero credito al sector privado otros,Panorama financiero de crédito al sector privado: Otros,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MINT0010,tasas de interes referenciales basica,Tasas de interés referenciales: Básica,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,0
-MINT0020,tasas de interes referenciales pasiva,Tasas de interés referenciales: Pasiva,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,0
-MINT0030,tasas de interes referenciales activa,Tasas de interés referenciales: Activa,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,0
-MINT0031,tasas de interes referenciales activa de corto plazo para el segmento productivo corporativo,Tasas de interés referenciales: Activa de corto plazo para el segmento productivo corporativo,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,0
-MRIN0011,caja en divisas,Reservas Internacionales: Caja en divisas,Monetary,bce_ims2.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MRIN0030,degs,Reservas Internacionales: DEGs,Monetary,bce_ims2.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MRIN0012,depositos netos en bancos e instituciones financieras del exterior,Reservas Internacionales: Depósitos netos en bancos e instituciones financieras del exterior ,Monetary,bce_ims2.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MRIN0013,"inversiones, depositos a plazo y titulos","Reservas Internacionales: Inversiones, depósitos a plazo y títulos",Monetary,bce_ims2.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MRIN0020,oro,Reservas Internacionales: Oro,Monetary,bce_ims2.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MRIN0050,posicion con aladi,Reservas Internacionales: Posición con ALADI,Monetary,bce_ims2.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MRIN0040,posicion de reserva en fmi,Reservas Internacionales: Posición de reserva en FMI,Monetary,bce_ims2.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MRIN0010,posicion neta en divisas,Reservas Internacionales: Posición neta en divisas (MRIN0011+MRIN0012+MRIN0013),Monetary,bce_ims2.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MRIN0060,posicion sucre,Reservas Internacionales: Posición SUCRE,Monetary,bce_ims2.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MRIN0000,reservas internacionales,"Reservas Internacionales, Total",Monetary,bce_ims2.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MCIR0000,especies monetarias en circulacion,Especies Monetarias en Circulación del Banco Central,Monetary,bce_ims11.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MFRA0000,moneda fraccionaria,Moneda Fraccionaria del Banco Central,Monetary,bce_ims11.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MELE0000,dinero electronico,Dinero Electrónico del Banco Central,Monetary,bce_ims11.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MVIS0000,depositos a la vista,Depósitos a la vista del Banco Central,Monetary,bce_ims11.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MOFE0000,oferta monetaria m1,Oferta Monetaria del Banco Central M1 (MCIR0000+MFRA0000+MELE0000+MVIS0000) ,Monetary,bce_ims11.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MCUA0000,cuasidinero,Cuasi-dinero del Banco Central,Monetary,bce_ims11.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MLIQ0000,liquidez total m2,Liquidez Total del Banco Central M2 (MOFE0000+MCUA0000),Monetary,bce_ims11.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MRBA0000,reservas bancarias,Reservas bancarias del Banco Central,Monetary,bce_ims11.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MBAS0000,base monetaria bm,Base Monetaria del Banco Central BM,Monetary,bce_ims11.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MMUL0000,multiplicador m1/bm,Multiplicador M1/BM (MOFE0000/MBAS0000),Monetary,bce_ims11.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,0
-MMUL0001,multiplicador m2/bm,Multiplicador M2/BM (MLIQ0000/MBAS0000),Monetary,bce_ims11.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,0
-MCAP0000,ims13_captaciones_cuasidinero_bancos_privados,Captaciones de cuasi-dinero de bancos privados,Monetary,bce_ims13.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MCAP0001,ims13_captaciones_cuasidinero_banecuador,Captaciones de cuasi-dinero del Banecuador,Monetary,bce_ims13.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MCAP0002,ims13_captaciones_cuasidinero_bde,Captaciones de cuasi-dinero del BDE,Monetary,bce_ims13.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MCAP0003,ims13_captaciones_cuasidinero_bev,Captaciones de cuasi-dinero del BEV,Monetary,bce_ims13.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MCAP0004,ims13_captaciones_cuasidinero_bnf,Captaciones de cuasi-dinero del BNF,Monetary,bce_ims13.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MCAP0010,ims13_captaciones_cuasidinero_cfn,Captaciones de cuasi-dinero del CFN,Monetary,bce_ims13.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MCAP0011,ims13_captaciones_cuasidinero_cooperativas,Captaciones de cuasi-dinero de cooperativas,Monetary,bce_ims13.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MCAP0012,ims13_captaciones_cuasidinero_mutualistas,Captaciones de cuasi-dinero de mutualistas,Monetary,bce_ims13.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MCAP0013,ims13_captaciones_cuasidinero_panorama_financiero,"Captaciones de cuasi-dinero, Panorama Financiero",Monetary,bce_ims13.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MCAP0014,ims13_captaciones_cuasidinero_sociedades_financieras,"Captaciones de cuasi-dinero, Sociedades Financieras",Monetary,bce_ims13.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MCAP0015,ims13_captaciones_cuasidinero_tarjetas_de_credito,"Captaciones de cuasi-dinero, Tarjetas de crédito",Monetary,bce_ims13.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MCAP0100,ims13_captaciones_depositos_vista_panorama_financiero,"Captaciones por Depósitos a la vista, Panorama Financiero",Monetary,bce_ims13.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MCAR0000,cartera_credito bancos privados,"Colocación de cartera, Bancos privados",Monetary,bce_ims14.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MCAR0001,cartera_credito banecuador,"Colocación de cartera, Banecuador",Monetary,bce_ims14.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MCAR0002,cartera_credito bde,"Colocación de cartera, BDE",Monetary,bce_ims14.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MCAR0003,cartera_credito bev,"Colocación de cartera, BEV",Monetary,bce_ims14.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MCAR0004,cartera_credito bnf,"Colocación de cartera, BNF",Monetary,bce_ims14.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MCAR0010,cartera_credito cfn,"Colocación de cartera, CFN",Monetary,bce_ims14.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MCAR0011,cartera_credito cooperativas,"Colocación de cartera, Cooperativas",Monetary,bce_ims14.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MCAR0012,cartera_credito mutualistas,"Colocación de cartera, Mutualistas",Monetary,bce_ims14.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MCAR0013,cartera_credito panorama financiero,"Colocación de cartera, Panorama financiero",Monetary,bce_ims14.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MCAR0014,cartera_credito sociedades financieras,"Colocación de cartera, Sociedades financieras",Monetary,bce_ims14.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-MCAR0015,cartera_credito tarjetas de credito,"Colocación de cartera, Tarjetas de crédito",Monetary,bce_ims14.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1
-PIPC0000,IPCO,Índice de Precios de la Construcción (IPCO),Prices,bce_ipco.csv,INEC,https://www.ecuadorencifras.gob.ec/indice-de-precios-de-la-construccion/,0
-TCOO0000,consumption_bdp,Consumo petrolero,Trade,bce_oil.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,
-TEXO0000,export_bdp,Exportaciones petroleras,Trade,bce_oil.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,
-TPRO0000,price_oil,Precio del petroleo,Trade,bce_oil.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,
-RPRO0001,production_bpd_diesel,Producción de Diesel,Real,bce_oil.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,
-RPRO0002,production_bpd_ecopais,Producción de eco país,Real,bce_oil.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,
-RPRO0003,production_bpd_ecoplus,Producción de eco plus,Real,bce_oil.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,
-RPRO0004,production_bpd_fueloil4,Producción de Fueloil 4,Real,bce_oil.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,
-RPRO0005,production_bpd_fueloil6,Producción de Fueloil 6,Real,bce_oil.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,
-RPRO0006,production_bpd_gasextra,Producción de gas extra,Real,bce_oil.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,
-RPRO0007,production_bpd_gassuper,Producción de gas súper,Real,bce_oil.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,
-RPRO0008,production_bpd_lpg,Producción de LPG,Real,bce_oil.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,
-RPRO0009,production_bpd_oil,Producción petrolera,Real,bce_oil.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,
-RPRO0000,production_bpd_other,Producción de otros hidrocarburos,Real,bce_oil.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,
-RIND0100,total nacional indice de situacion presente,"Índice de Situación Presente, Total nacional",Real,bce_situacion.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-RIND0101,total nacional indice de expectativas,"Indice de Expectativas, Total nacional",Real,bce_situacion.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-RIND0102,total nacional indice de confianza del consumidor,"Indice de Confianza del Consumidor, Total nacional",Real,bce_situacion.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-RIND0110,urbano indice de situacion presente,"Índice de Situación Presente, Urbano",Real,bce_situacion.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-RIND0111,urbano indice de expectativas,"Indice de expectativas, Urbano",Real,bce_situacion.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-RIND0112,urbano indice de confianza del consumidor,"Indice de Confianza del Consumidor, Urbano",Real,bce_situacion.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-RIND0120,rural indice de situacion presente,"Índice de Situación Presente, Rural",Real,bce_situacion.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-RIND0121,rural indice de expectativas,"Indice de expectativas, Rural",Real,bce_situacion.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-RIND0122,rural indice de confianza del consumidor,"Indice de Confianza del Consumidor, Rural",Real,bce_situacion.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TREA0000,tdc efectivo real  ,Indices de tipo de cambio efectivo real,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TREA0001,tdc bilateral real estados unidos de america,Tipo de cambio real bilateral EEUU,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TREA0002,tdc bilateral real china,Tipo de cambio real bilateral China,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TREA0003,tdc bilateral real colombia,Tipo de cambio real bilateral Colombia,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TREA0004,tdc bilateral real mexico,Tipo de cambio real bilateral México,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TREA0005,tdc bilateral real peru,Tipo de cambio real bilateral Perú,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TREA0006,tdc bilateral real alemania,Tipo de cambio real bilateral Alemania,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TREA0007,tdc bilateral real panama,Tipo de cambio real bilateral Panamá,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TREA0008,tdc bilateral real espana,Tipo de cambio real bilateral España,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TREA0009,tdc bilateral real japon,Tipo de cambio real bilateral Japón,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TREA0010,tdc bilateral real brasil,Tipo de cambio real bilateral Brasil,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TREA0011,tdc bilateral real rusia,Tipo de cambio real bilateral Rusia,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TREA0012,tdc bilateral real corea del sur,Tipo de cambio real bilateral Corea del Sur,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TREA0013,tdc bilateral real holanda,Tipo de cambio real bilateral Holanda,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TREA0014,tdc bilateral real chile,Tipo de cambio real bilateral Chile,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TREA0015,tdc bilateral real italia,Tipo de cambio real bilateral Italia,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TREA0016,tdc bilateral real vietnam,Tipo de cambio real bilateral Vietnam,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TUSD0000,tdc_usd colombia peso cop,Cotización del USD en Colombia,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TUSD0001,tdc_usd peru nuevo sol pen,Cotización del USD en Perú,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TUSD0002,tdc_usd argentina peso ars,Cotización del USD en Argentina,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TUSD0003,tdc_usd brasil real brl,Cotización del USD en Brasil,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TUSD0004,tdc_usd mexico peso mxn,Cotización del USD en México,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TUSD0005,tdc_usd venezuela bolivar veb,Cotización del USD en Venezuela,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TUSD0006,tdc_usd chile peso clp,Cotización del USD en Chile,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TUSD0007,tdc_usd reino unido libra gbp,Cotización del USD en Reino Unido,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TUSD0008,tdc_usd suiza franco chf,Cotización del USD en Suiza,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TUSD0009,tdc_usd japon yen jpy,Cotización del USD en Japón,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TUSD0010,tdc_usd deg,Cotización del USD Degis,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TUSD0011,tdc_usd euro eur,Cotización del USD en Europa,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TUSD0012,tdc_usd china yuan cny,Cotización del USD en China,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-TUSD0013,tdc_usd rusia rublo rub,Cotización del USD en Rusia,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0
-EGEN0006,cenace_biogas,Generación eléctrica Biogas,Energy,cenace_power.csv,CENACE,http://www.cenace.gob.ec/wp-content/plugins/ez-addons/data/indicadores.xlsx,0
-EGEN0001,cenace_biomasa,Generación eléctrica Biomasa,Energy,cenace_power.csv,CENACE,http://www.cenace.gob.ec/wp-content/plugins/ez-addons/data/indicadores.xlsx,0
-EGEN0002,cenace_eolica,Generación eléctrica Eolica,Energy,cenace_power.csv,CENACE,http://www.cenace.gob.ec/wp-content/plugins/ez-addons/data/indicadores.xlsx,0
-EGEN0003,cenace_fotovoltaica,Generación eléctrica Fotovoltaica,Energy,cenace_power.csv,CENACE,http://www.cenace.gob.ec/wp-content/plugins/ez-addons/data/indicadores.xlsx,0
-EGEN0004,cenace_hidroelectrica,Generación eléctrica Hidroelectrica,Energy,cenace_power.csv,CENACE,http://www.cenace.gob.ec/wp-content/plugins/ez-addons/data/indicadores.xlsx,0
-EGEN0005,cenace_termica,Generación eléctrica Termica,Energy,cenace_power.csv,CENACE,http://www.cenace.gob.ec/wp-content/plugins/ez-addons/data/indicadores.xlsx,0
-EGEN0000,cenace_total,Generación eléctrica Total,Energy,cenace_power.csv,CENACE,http://www.cenace.gob.ec/wp-content/plugins/ez-addons/data/indicadores.xlsx,0
-MFLQ0000,cosede_liquidez,Fondo de liquidez,Monetary,cosede_lfsfp.csv,COSEDE,https://www.cosede.gob.ec/publicaciones-estadisticas-mensuales-pem/,1
-TCOP0000,fred_DCOILWTICO,"Crude Oil Prices: West Texas Intermediate (WTI) - Cushing, Oklahoma",Trade,fred_data.csv,FRED,https://fred.stlouisfed.org/series/DCOILWTICO,0
-EUIE0000,fred_WUIECU,World Uncertainty Index for Ecuador,Expectations,fred_data.csv,FRED,https://fred.stlouisfed.org/series/WUIECU,0
-TIMP3310,fred_IMP3310,U.S. Imports of Goods by Customs Basis from Ecuador,Trade,fred_data.csv,FRED,https://fred.stlouisfed.org/series/IMP3310,0
-TEXP3310,fred_EXP3310,U.S. Exports of Goods by F.A.S. Basis to Ecuador,Trade,fred_data.csv,FRED,https://fred.stlouisfed.org/series/EXP3310,0
-LEMP0000,enemdu_desempleo,Desempleo,Labor,ine_labor.csv,INE,https://www.ecuadorencifras.gob.ec/estadisticas-laborales-enemdu/,0
-LEMP0010,enemdu_empleo,Empleo,Labor,ine_labor.csv,INE,https://www.ecuadorencifras.gob.ec/estadisticas-laborales-enemdu/,0
-LEMP0011,enemdu_empleo adecuado/pleno,Empleo Adecuado/Pleno,Labor,ine_labor.csv,INE,https://www.ecuadorencifras.gob.ec/estadisticas-laborales-enemdu/,0
-LPOB0000,enemdu_poblacion economicamente activa,Población Económicamente Activa,Labor,ine_labor.csv,INE,https://www.ecuadorencifras.gob.ec/estadisticas-laborales-enemdu/,0
-LPOB0001,enemdu_poblacion en edad de trabajar (pet),Población en Edad de Trabajar,Labor,ine_labor.csv,INE,https://www.ecuadorencifras.gob.ec/estadisticas-laborales-enemdu/,0
-LPOB0002,enemdu_poblacion total,Población Total,Labor,ine_labor.csv,INE,https://www.ecuadorencifras.gob.ec/estadisticas-laborales-enemdu/,0
-LEMP0020,enemdu_subempleo,Subempleo,Labor,ine_labor.csv,INE,https://www.ecuadorencifras.gob.ec/estadisticas-laborales-enemdu/,0
-LPOB0003,enemdu_poblacion economicamente activa trimestral,Población Económicamente Activa (Trimestral),Labor,ine_pea quarter.csv,INE,https://www.ecuadorencifras.gob.ec/estadisticas-laborales-enemdu/,0
-PPBR0000,enemdu_pobreza,Incidencia de pobreza por ingreso,Poverty,ine_pobreza.csv,INE,https://www.ecuadorencifras.gob.ec/estadisticas-laborales-enemdu/,0
-PPBR0001,enemdu_pobreza_extrema,Incidencia de pobreza extrema por ingreso,Poverty,ine_pobreza.csv,INE,https://www.ecuadorencifras.gob.ec/estadisticas-laborales-enemdu/,0
-PPBR0002,enemdu_gini_index,Coeficiente de Gini,Poverty,ine_pobreza.csv,INE,https://www.ecuadorencifras.gob.ec/estadisticas-laborales-enemdu/,0
-PINF0000,CPI EEUU,Inflación anual de Estados Unidos,Prices,international_data.csv,BC e INE de cada país,https://fred.stlouisfed.org/series/CPIAUCSL,0
-PINF0001,CPI CN,Inflación anual de China,Prices,international_data.csv,BC e INE de cada país,https://fred.stlouisfed.org/series/CHNCPIALLMINMEI,0
-PINF0002,CPI CO,Inflación anual de Colombia,Prices,international_data.csv,BC e INE de cada país,https://www.dane.gov.co/index.php/estadisticas-por-tema/precios-y-costos/indice-de-precios-al-consumidor-ipc,0
-PINF0003,CPI PE,Inflación anual de Perú,Prices,international_data.csv,BC e INE de cada país,https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PN38705PM/json/1980-01-01/,0
-GERO0001,gc_erogacion_no_permanente,Erogación no permanente del Gobierno Central,Government,mef_gc.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1
-GERO0002,gc_erogacion_permanente,Erogación permanente del Gobierno Central,Government,mef_gc.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1
-GERO0003,gc_erogacion_petrolera_gc,Erogación petrolera del Gobierno Central,Government,mef_gc.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1
-GINC0020,gc_ingresos_no_petroleros,Ingresos no petroleros del Gobierno Central,Government,mef_gc.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1
-GINC0010,gc_ingresos_petroleros,Ingresos petroleros del Gobierno Central,Government,mef_gc.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1
-GRES0000,gc_resultado_primario,Resultado primario del Gobierno Central,Government,mef_gc.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1
-GRES0020,gc_resultado_primario_no_petrolero,Resultado primario no petrolero del Gobierno Central,Government,mef_gc.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1
-GERO0000,gc_total_erogacion,"Erogación del Gobierno Central, Total",Government,mef_gc.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1
-GINC0000,gc_total_ingresos,"Ingresos del Gobierno Central, Total",Government,mef_gc.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1
-GERO0101,spnf_erogacion_no_permanente,Erogación no permanente del Sector Público No Financiero,Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1
-GERO0110,spnf_erogacion_operativa_epnf,Erogación operativa de Empresas Públicas No Financieras,Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1
-GERO0111,spnf_erogacion_operativa_petrolera_epnf,Erogación operativa petrolera de Empresas Públicas No Financieras,Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1
-GERO0102,spnf_erogacion_permanente,Erogación permanente del Sector Público No Financiero,Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1
-GERO0120,spnf_erogacion_petrolera_spnf,Erogación petrolera del Sector Público No Financiero,Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1
-GINC0130,spnf_ingreso_operativo_epnf,Ingreso operativo de Empresas Públicas No Financieras,Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1
-GINC0120,spnf_ingresos_no_petroleros,Ingresos no petroleros del Sector Público No Financiero,Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1
-GINC0110,spnf_ingresos_petroleros,Ingresos petroleros del Sector Público No Financiero,Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1
-GINC0111,spnf_ingresos_petroleros_epnf,Ingresos petroleros de Empresas Públicas No Financieras,Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1
-GRES0130,spnf_resultado_operacional_epnf,Resultado operacional de Empresas Públicas No Financieras,Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1
-GRES0131,spnf_resultado_operativo_petrolera_epnf,Resultado operativo petrolero de Empresas Públicas No Financieras,Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1
-GRES0100,spnf_resultado_primario,Resultado primario del Sector Público No Financiero,Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1
-GRES0101,spnf_resultado_primario_no_petrolero,Resultado primario no petrolero del Sector Público No Financiero,Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1
-GERO0100,spnf_total_erogaciones,"Erogaciones del Sector Público No Financiero, Total",Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1
-GINC0100,spnf_total_ingresos,"Ingresos del Sector Público No Financiero, Total",Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1
-RIND0000,iaenp,Indice de Actividad Empresarial No Petrolera,Real,sri_iaenp.csv,SRI,https://www.sri.gob.ec/datasets,0
-RIND0001,indice manufacturas mensual,Indice Manufacturas,Real,sri_iaenp.csv,SRI,https://www.sri.gob.ec/datasets,0
-RIND0002,indice comercio mensual,Indice Comercio,Real,sri_iaenp.csv,SRI,https://www.sri.gob.ec/datasets,0
-RIND0003,indice construccion mensual,Indice Construcción,Real,sri_iaenp.csv,SRI,https://www.sri.gob.ec/datasets,0
-RIND0004,indice servicios mensual,Indice Servicios,Real,sri_iaenp.csv,SRI,https://www.sri.gob.ec/datasets,0
-RVEN0001,ventas_netas_tarifa_12,Ventas netas registradas con tarifa diferente de 0,Real,sri_ventas.csv,SRI,https://www.sri.gob.ec/datasets,1
-RVEN0002,ventas_netas_tarifa_0,Ventas netas registradas con tarifa 0,Real,sri_ventas.csv,SRI,https://www.sri.gob.ec/datasets,1
-RVEN0010,exportaciones,Exportaciones de bienes y servicios,Real,sri_ventas.csv,SRI,https://www.sri.gob.ec/datasets,1
-RCOM0001,compras_netas_tarifa_12,Compras y adquisiciones declaradas por el propio contribuyente con tarifa diferente de cero,Real,sri_ventas.csv,SRI,https://www.sri.gob.ec/datasets,1
-RCOM0002,compras_netas_tarifa_0,Compras y adquisiciones declaradas por el propio contribuyente con tarifa cero,Real,sri_ventas.csv,SRI,https://www.sri.gob.ec/datasets,1
-RCOM0010,importaciones,Importaciones de bienes y servicios,Real,sri_ventas.csv,SRI,https://www.sri.gob.ec/datasets,1
-RCOM0003,compras_rise,Compras realizadas a los contribuyentes inscritos en el Régimen Simplificado (RISE),Real,sri_ventas.csv,SRI,https://www.sri.gob.ec/datasets,1
-RCOM0004,total_compras,Total de compras y adquisiciones declaradas por el propio contribuyente,Real,sri_ventas.csv,SRI,https://www.sri.gob.ec/datasets,1
-RVEN0000,total_ventas,"Ventas, Total",Real,sri_ventas.csv,SRI,https://www.sri.gob.ec/datasets,1
-FEMB0000,bcrp_embig,Spread - EMBIG Ecuador (pbs),Finances,bcrp_embig.csv,BCRP,https://estadisticas.bcrp.gob.pe/estadisticas/series/diarias/resultados/PD04712XD/html,0
-FEMB0001,bcrp_embigdiff,Diferencial de Rendimientos del Índice de Bonos de Mercados Emergentes (EMBIG) - Ecuador,Finances,bcrp_embig.csv,BCRP,https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PN01134XM/html,0
-PCPI0000,cpi,Indice de Precios al Consumidor,Prices,ine_cpi.csv,INE,https://www.ecuadorencifras.gob.ec/indice-de-precios-al-consumidor/,0
-PIPP0000,ipp,Indice de Precios al Productor,Prices,ine_ipp.csv,INE,https://www.ecuadorencifras.gob.ec/indice-de-precios-al-productor-de-disponibilidad-nacional/,0
-RREC0000,1 sri impuesto a la renta recaudado,Recaudación del SRI: Impuesto a la Renta Recaudado,Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC0100,2 sri retenciones mensuales,"Recaudación del SRI: Impuesto a la Renta Recaudado, Retenciones Mensuales",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC0101,3 sri autorretenciones,"Recaudación del SRI: Impuesto a la Renta Recaudado, RM, Autorretenciones",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC0200,4 sri a la renta empresas petroleras y otros nep,"Recaudación del SRI: Impuesto a la Renta Recaudado, A la renta empresas petroleras y otros NEP",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC0300,5 sri anticipos al ir,"Recaudación del SRI: Impuesto a la Renta Recaudado, Anticipos al IR",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC0400,6 sri declaraciones de impuesto a la renta,"Recaudación del SRI: Impuesto a la Renta Recaudado, Declaraciones de Impuesto a la Renta",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC0401,7 sri personas naturales,"Recaudación del SRI: Impuesto a la Renta Recaudado, DIR, Personas Naturales",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC0402,8 sri personas juridicas,"Recaudación del SRI: Impuesto a la Renta Recaudado, DIR, Personas Jurídicas",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC0403,"9 sri herencias, legados y donaciones","Recaudación del SRI: Impuesto a la Renta Recaudado, DIR, Herencias, Legados y Donaciones",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC0404,10 sri microempresas,"Recaudación del SRI: Impuesto a la Renta Recaudado, DIR, Regularización de Activos en el Exterior",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC1000,12 sri impuesto al valor agregado,Recaudación del SRI: Impuesto al Valor Agregado,Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC1100,13 sri iva operaciones internas,"Recaudación del SRI: IVA, Operaciones Internas",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC1101,14 sri ajuste retenciones iva petroleras,"Recaudación del SRI: IVA, OI, Ajustes retenciones IVA petroleras",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC1200,15 sri iva importaciones,"Recaudación del SRI: IVA, Importaciones",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC2000,16 sri impuesto a los consumos especiales,Recaudación del SRI: Impuesto a los Consumos Especiales,Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC2100,17 sri ice operaciones internas,"Recaudación del SRI: ICE, Operaciones Internas",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC2101,19 sri ice alcohol y productos alcoholicos,"Recaudación del SRI: ICE, OI, Alcohol y Productos Alcohólicos",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC2102,20 sri ice armas de fuego,"Recaudación del SRI: ICE, OI, Armas de fuego",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC2103,"21 sri ice aviones, tricares,etc. y otros nep","Recaudación del SRI: ICE, OI, Aviones, tricares, etc y otros NEP",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC2104,22 sri ice bebidas energizantes,"Recaudación del SRI: ICE, OI, Bebidas energizantes",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC2105,23 sri ice bebidas gaseosas,"Recaudación del SRI: ICE, OI, Bebidas gaseosas",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC2106,24 sri ice bebidas no alcoholicas,"Recaudación del SRI: ICE, OI, Bebidas no alcohólicas",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC2107,25 sri ice cerveza,"Recaudación del SRI: ICE, OI, Cerveza",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC2108,26 sri ice cigarrillos,"Recaudación del SRI: ICE, OI, Cigarrillos",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC2109,28 sri ice cuotas membresias clubes,"Recaudación del SRI: ICE, OI, Cuotas de Membresías de Clubes",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC2110,30 sri ice fundas plasticas,"Recaudación del SRI: ICE, OI, Fundas Plásticas",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC2111,"31 sri ice perfumes, aguas de tocador","Recaudación del SRI: ICE, OI, Perfumes y Aguas de Tocador",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC2112,32 sri ice servicios casino - juegos azar,"Recaudación del SRI: ICE, OI, Servicios de Casino y Juegos de Azar",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC2113,33 sri ice servicios television prepagada,"Recaudación del SRI: ICE, OI, Servicios de Televisión Prepagada",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC2114,35 sri ice telefonia,"Recaudación del SRI: ICE, OI, Telefonía",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC2115,36 sri ice vehiculos,"Recaudación del SRI: ICE, OI, Vehículos",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC2116,37 sri ice videojuegos,"Recaudación del SRI: ICE, OI, Videojuegos",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC2117,38 sri ice no especificado,"Recaudación del SRI: ICE, OI, No especificado",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC2200,39 sri ice importaciones,"Recaudación del SRI: ICE, Importaciones",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC3000,40 sri impuesto redimible botellas plasticas no retornable,Recaudación del SRI: Impuesto Redimible de Botellas Plásticas no Retornable,Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC3001,41 sri impuesto a los vehiculos motorizados,Recaudación del SRI: Impuesto a los Vehículos Motorizados,Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC3002,42 sri impuesto a la salida de divisas,Recaudación del SRI: Impuesto a la Salida de Divisas,Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC3003,43 sri impuesto activos en el exterior,Recaudación del SRI: Impuesto de Activos en el Exterior,Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC4000,"44 sri regalias, patentes y utilidades de conservacion minera","Recaudación del SRI: Regalías, patentes y utilidades de conservación minera",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC5000,45 sri contribucion para la atencion integral del cancer,Recaudación del SRI: Contribución para la atención integral del cáncer,Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC6000,46 sri intereses por mora tributaria,Recaudación del SRI: Intereses por Mora Tributaria,Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC7000,47 sri multas tributarias fiscales,Recaudación del SRI: Multas Tributarias Fiscales,Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RREC8000,48 sri otros ingresos,Recaudación del SRI: Otros Ingresos,Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1
-RCAR0000,total car sales,Vehículos nuevos y reportados de ventas al SRI,Real,sri_totalcar.csv,SRI,https://www.sri.gob.ec/datasets,0
-RVAR0000,sri_vat,"SRI valores recaudados mensualmente, valor ",Real,sri_vat_timeseries.csv,SRI,https://www.sri.gob.ec/datasets,1
-RVAR0001,sri_transactions,"SRI valores recaudados mensualmente, total de transacciones",Real,sri_vat_timeseries.csv,SRI,https://www.sri.gob.ec/datasets,0
-UNTL1001,ntl_airport,Serie de luminosidad nocturna agregada por industria: aeropuertos,Unstructured,ntl_bysector.csv,NOAA ,https://ladsweb.modaps.eosdis.nasa.gov/,0
-UNTL1002,ntl_consumption,Serie de luminosidad nocturna agregada por industria: establecimientos de consumo,Unstructured,ntl_bysector.csv,NOAA ,https://ladsweb.modaps.eosdis.nasa.gov/,0
-UNTL1003,ntl_hotel,Serie de luminosidad nocturna agregada por industria: hoteles,Unstructured,ntl_bysector.csv,NOAA ,https://ladsweb.modaps.eosdis.nasa.gov/,0
-UNTL1004,ntl_manufacture,Serie de luminosidad nocturna agregada por industria: manufactura,Unstructured,ntl_bysector.csv,NOAA ,https://ladsweb.modaps.eosdis.nasa.gov/,0
-UNTL1005,ntl_ports,Serie de luminosidad nocturna agregada por industria: puertos,Unstructured,ntl_bysector.csv,NOAA ,https://ladsweb.modaps.eosdis.nasa.gov/,0
-UNTL1006,ntl_public square,Serie de luminosidad nocturna agregada por industria: plazas publicas,Unstructured,ntl_bysector.csv,NOAA ,https://ladsweb.modaps.eosdis.nasa.gov/,0
-UNTL1007,ntl_transport,Serie de luminosidad nocturna agregada por industria: transporte terrestre,Unstructured,ntl_bysector.csv,NOAA ,https://ladsweb.modaps.eosdis.nasa.gov/,0
-FDEB1000,spnf consolidada total deuda publica agregada mas otras obligaciones,Total deuda publica consolidada mas otras obligaciones,Finances,mef_deuda.csv,MEF,https://www.finanzas.gob.ec/https-wwwdeuda-publica-nueva-metodologia/,1
-FDEB1001,spnf consolidada total deuda publica externa mas otras obligaciones,Total deuda publica externa consolidada mas otras obligaciones,Finances,mef_deuda.csv,MEF,https://www.finanzas.gob.ec/https-wwwdeuda-publica-nueva-metodologia/,1
-FDEB1002,spnf consolidada total deuda publica interna mas otras obligaciones ,Total deuda publica interna consolidada mas otras obligaciones,Finances,mef_deuda.csv,MEF,https://www.finanzas.gob.ec/https-wwwdeuda-publica-nueva-metodologia/,1
-FDEB2000,spnf agg total deuda publica agregada mas otras obligaciones,Total deuda publica agregada mas otras obligaciones,Finances,mef_deuda.csv,MEF,https://www.finanzas.gob.ec/https-wwwdeuda-publica-nueva-metodologia/,1
-FDEB2001,spnf agg total deuda publica externa mas otras obligaciones,Total deuda publica externa agregada mas otras obligaciones,Finances,mef_deuda.csv,MEF,https://www.finanzas.gob.ec/https-wwwdeuda-publica-nueva-metodologia/,1
-FDEB2002,spnf agg total deuda publica interna mas otras obligaciones ,Total deuda publica interna agregada mas otras obligaciones,Finances,mef_deuda.csv,MEF,https://www.finanzas.gob.ec/https-wwwdeuda-publica-nueva-metodologia/,1
+﻿ticket,var name,definition,category,file,source,url,nominal,frequency
+TEXP0100,exportaciones fob total,"Exportaciones FOB, Total",Trade,bce_bc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TEXP0110,exportaciones fob petroleras,"Exportaciones FOB, Petroleras",Trade,bce_bc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TEXP0120,exportaciones fob no petroleras,"Exportaciones FOB, No Petroleras",Trade,bce_bc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TIMP0100,importaciones fob total,"Importaciones FOB, Total",Trade,bce_bc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TIMP0110,importaciones fob petroleras,"importaciones FOB, Petroleras",Trade,bce_bc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TIMP0120,importaciones fob no petroleras,"Importaciones FOB, No petroleras",Trade,bce_bc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TBAL0000,balanza comercial total,"Balanza comercial, Total (comercio exterior)",Trade,bce_bc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TBAL0010,balanza comercial petrolera,"Balanza comercial, Petrolera (comercio exterior)",Trade,bce_bc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TBAL0020,balanza comercial no petrolera,"Balanza comercial, No petrolera (comercio exterior)",Trade,bce_bc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TACT0000,activos de reserva,Activos de reserva,Trade,bce_bp.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/SectorExterno/BalanzaPagos/indice.htm,1,q
+TBAL0001,balanza comercial,Balanza comercial BOP,Trade,bce_bp.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/SectorExterno/BalanzaPagos/indice.htm,1,q
+TACC0000,cuenta corriente,Cuenta corriente BOP,Trade,bce_bp.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/SectorExterno/BalanzaPagos/indice.htm,1,q
+TACC0010,cuenta de capital,Cuenta de capital,Trade,bce_bp.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/SectorExterno/BalanzaPagos/indice.htm,1,q
+TACC0020,cuenta financiera,Cuenta financiera BOP,Trade,bce_bp.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/SectorExterno/BalanzaPagos/indice.htm,1,q
+TINC0000,ingreso primario,Ingreso primario,Trade,bce_bp.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/SectorExterno/BalanzaPagos/indice.htm,1,q
+TINC0010,ingreso secundario,Ingreso secundario,Trade,bce_bp.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/SectorExterno/BalanzaPagos/indice.htm,1,q
+TSER0000,servicios,Servicios,Trade,bce_bp.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/SectorExterno/BalanzaPagos/indice.htm,0,q
+TEXP0201,oro polvo kg,"Exportaciones de Oro, En polvo (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0,m
+TEXP0202,oro las demas formas en bruto kg,"Exportaciones de Oro, En las demás formas en bruto (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0,m
+TEXP0203,oro las demas formas semilabradas kg,"Exportaciones de Oro, En las demás formas semilabradas (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0,m
+TEXP0204,oro para uso monetario kg,"Exportaciones de Oro, Para uso monetario (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0,m
+TEXP0205,oro minerales de oro y sus concentrados kg,"Exportaciones de Oro, Sus minerales y concentrados (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0,m
+TEXP0206,oro kg,Exportaciones de Oro (kilogramos),Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0,m
+TEXP0211,plata polvo kg,"Exportaciones de Plata, En polvo (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0,m
+TEXP0212,plata sin alear kg,"Exportaciones de Plata, Sin alear (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0,m
+TEXP0213,plata minerales de plata y sus concentrados kg,"Exportaciones de Plata, Sus minerales y concentrados (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0,m
+TEXP0221,cobre y sus concentrados kg,"Exportaciones de Cobre, Sus minerales y concentrados (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0,m
+TEXP0231,plomo y sus concentrados kg,"Exportaciones de Plomo, Sus minerales y concentrados (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0,m
+TEXP0222,cobre  a base de cobrecinc kg,"Exportaciones de Cobre, A base de cobre-cinc (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0,m
+TEXP0223,cobre  a base de cobreestano kg,"Exportaciones de Cobre, A base de cobre-estaño (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0,m
+TEXP0224,cobre  las demas kg,"Exportaciones de Cobre, Las demás formas (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0,m
+TEXP0232,plomo refinado kg,"Exportaciones de Plomo, Refinado (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0,m
+TEXP0233,plomo  con antimonio como el otro elemento predominante en peso kg,"Exportaciones de Plomo, Con antimonio como el otro elemento predominante en peso (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0,m
+TEXP0234,plomo  kg,Exportaciones de Plomo (kilogramos),Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0,m
+TEXP0230,plomo total kg exports,"Exportaciones de Plomo, Total (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0,m
+TEXP0200,oro total kg exports,"Exportaciones de Oro, Total (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0,m
+TEXP0220,cobre total kg exports,"Exportaciones de Cobre, Total (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0,m
+TEXP0210,plata total kg exports,"Exportaciones de Plata, Total (kilogramos)",Trade,bce_export.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/ExportacionesAnuales.xlsx,0,m
+TEXP0000,total exportaciones   ,"Exportaciones, Total",Trade,bce_exports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TEXP0010,exportaciones petroleras    total,"Exportaciones petroleras, Total",Trade,bce_exports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TEXP0011,exportaciones petroleras   petroleo crudo,"Exportaciones petroleras, Petroleo crudo",Trade,bce_exports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TEXP0012,exportaciones petroleras   derivados,"Exportaciones petroleras, Derivados",Trade,bce_exports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TEXP0020,exportaciones no petroleras  total  ,"Exportaciones no petroleras, Total",Trade,bce_exports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TEXP0021,exportaciones no petroleras tradicionales total,"Exportaciones no petroleras: Tradicionales, Total",Trade,bce_exports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TEXP0022,exportaciones no petroleras tradicionales banano y platano,Exportaciones no petroleras: Banano y plátano,Trade,bce_exports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TEXP0023,exportaciones no petroleras tradicionales cafe y elaborados,Exportaciones no petroleras: Café y elaborados del mismo,Trade,bce_exports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TEXP0024,exportaciones no petroleras tradicionales camaron,Exportaciones no petroleras: Camarón,Trade,bce_exports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TEXP0025,exportaciones no petroleras tradicionales cacao y elaborados,Exportaciones no petroleras: Cacao y elaborados del mismo,Trade,bce_exports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TEXP0026,exportaciones no petroleras tradicionales atun y pescado,Exportaciones no petroleras: Atún y pescado,Trade,bce_exports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TEXP0027,exportaciones no petroleras  no tradicionales  ,"Exportaciones no petroleras: No tradicionales, Total",Trade,bce_exports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+RGDP0000,gdp_movil,"PIB Trimestral. Niveles de Volumen Encadenados, 2018 = 100 Miles de USD, Datos Ajustados de Estacionalidad",Real,bce_gdp.csv,BCE,https://contenido.bce.fin.ec/documentos/informacioneconomica/cuentasnacionales/ix_cuentasnacionalestrimestrales.html,0,q
+XICC0000,icc,Indice de Confianza del Consumidor,Expectations,bce_icc.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/SectorReal/Previsiones/IndCoyuntura/mensual/ICC_indice.htm,0,m
+RIDE0000,ideac,Indice de Actividad Económica Coyuntural (IDEAC),Real,bce_ideac.csv,BCE,https://www.bce.fin.ec/index.php/component/k2/item/313-indice-de-actividad-econ%C3%B3mica-coyuntural-ideac,0,m
+XIND0000,iee_global,Indice de Expectativas de la Economía Global,Expectations,bce_iee.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/Encuestas/EOE/eoeindice.htm,0,m
+XIND0001,iee_comercio,Indice de Expectativas de la Economía Comercio,Expectations,bce_iee.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/Encuestas/EOE/eoeindice.htm,0,m
+XIND0002,iee_construccion,Indice de Expectativas de la Economía Construcción,Expectations,bce_iee.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/Encuestas/EOE/eoeindice.htm,0,m
+XIND0003,iee_manufactura,Indice de Expectativas de la Economía Manufactura,Expectations,bce_iee.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/Encuestas/EOE/eoeindice.htm,0,m
+XIND0004,iee_servicios,Indice de Expectativas de la Economía Servicios,Expectations,bce_iee.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/Encuestas/EOE/eoeindice.htm,0,m
+TIMP0000,total importaciones  ,"Importaciones, Total",Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TIMP0010,importaciones bienes de consumo total,"Importaciones de bienes de consumo, Total",Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TIMP0011,importaciones bienes de consumo no duraderos,Importaciones de bienes de consumo: No duraderos,Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TIMP0012,importaciones bienes de consumo duraderos,Importaciones de bienes de consumo: Duraderos,Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TIMP0013,importaciones bienes de consumo  trafico postal internacional y correos rapidos,Importaciones de bienes de consumo: Tráfico postal internacional y correos rápidos,Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TIMP0020,importaciones combustibles y lubricantes  ,Importaciones de combustibles y lubricantes,Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TIMP0030,importaciones materias primas total,"Importaciones de materias primas, Total",Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TIMP0031,importaciones materias primas agricolas,Importaciones de materias primas: Agrícolas,Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TIMP0032,importaciones materias primas industriales,Importaciones de materias primas: Industriales,Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TIMP0033,importaciones materias primas materiales de construccion,Importaciones de materias primas: Materiales de construcción,Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TIMP0040,importaciones bienes de capital total,"Importaciones de bienes de capital, Total",Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TIMP0041,importaciones bienes de capital agricolas,Importaciones de bienes de capital: Agrícolas,Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TIMP0042,importaciones bienes de capital industriales,Importaciones de bienes de capital: Industriales,Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TIMP0043,importaciones bienes de capital equipos de transporte,Importaciones de bienes de capital: Equipos de transporte,Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+TIMP0050,importaciones diversos  ,Importaciones: Diversos,Trade,bce_imports.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,1,m
+MBCE0000,banco central reservas internacionales ri,Reservas internacionales del Banco Central,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,,m
+MBCE0001,banco central pasivos monetarios pm,Pasivos monetarios del Banco Central,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MBCE0002,banco central emision monetaria em,Emisión monetaria del Banco Central,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MBCE0003,banco central dinero electronico de,Dinero electrónico del Banco Central,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MBCE0004,banco central reservas bancarias,Reservas bancarias del Banco Central,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MPFN0000,panorama financiero depositos a la vista,Panorama financiero de depósitos a la vista,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MPFN0010,panorama financiero cuasidinero total,"Panorama financiero de cuasi-dinero, Total",Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MPFN0011,panorama financiero cuasidinero ahorro,Panorama financiero de cuasi-dinero: Ahorro,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MPFN0012,panorama financiero cuasidinero plazo,Panorama financiero de cuasi-dinero: Plazo,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MPFN0013,panorama financiero cuasidinero restringido,Panorama financiero de cuasi-dinero: Restringido,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MPFN0014,panorama financiero cuasidinero operaciones de reporto,Panorama financiero de cuasi-dinero: Operaciones de reporto,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MPFN0015,panorama financiero cuasidinero otros depositos,Panorama financiero de cuasi-dinero: Otros depósitos,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MPFN0020,panorama financiero credito al sector privado total,"Panorama financiero de crédito al sector privado, Total",Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MPFN0021,panorama financiero credito al sector privado cartera,Panorama financiero de crédito al sector privado: Cartera,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MPFN0022,panorama financiero credito al sector privado otros,Panorama financiero de crédito al sector privado: Otros,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MINT0010,tasas de interes referenciales basica,Tasas de interés referenciales: Básica,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,0,m
+MINT0020,tasas de interes referenciales pasiva,Tasas de interés referenciales: Pasiva,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,0,m
+MINT0030,tasas de interes referenciales activa,Tasas de interés referenciales: Activa,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,0,m
+MINT0031,tasas de interes referenciales activa de corto plazo para el segmento productivo corporativo,Tasas de interés referenciales: Activa de corto plazo para el segmento productivo corporativo,Monetary,bce_ims1.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,0,m
+MRIN0011,caja en divisas,Reservas Internacionales: Caja en divisas,Monetary,bce_ims2.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MRIN0030,degs,Reservas Internacionales: DEGs,Monetary,bce_ims2.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MRIN0012,depositos netos en bancos e instituciones financieras del exterior,Reservas Internacionales: Depósitos netos en bancos e instituciones financieras del exterior ,Monetary,bce_ims2.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MRIN0013,"inversiones, depositos a plazo y titulos","Reservas Internacionales: Inversiones, depósitos a plazo y títulos",Monetary,bce_ims2.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MRIN0020,oro,Reservas Internacionales: Oro,Monetary,bce_ims2.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MRIN0050,posicion con aladi,Reservas Internacionales: Posición con ALADI,Monetary,bce_ims2.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MRIN0040,posicion de reserva en fmi,Reservas Internacionales: Posición de reserva en FMI,Monetary,bce_ims2.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MRIN0010,posicion neta en divisas,Reservas Internacionales: Posición neta en divisas (MRIN0011+MRIN0012+MRIN0013),Monetary,bce_ims2.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MRIN0060,posicion sucre,Reservas Internacionales: Posición SUCRE,Monetary,bce_ims2.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MRIN0000,reservas internacionales,"Reservas Internacionales, Total",Monetary,bce_ims2.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MCIR0000,especies monetarias en circulacion,Especies Monetarias en Circulación del Banco Central,Monetary,bce_ims11.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MFRA0000,moneda fraccionaria,Moneda Fraccionaria del Banco Central,Monetary,bce_ims11.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MELE0000,dinero electronico,Dinero Electrónico del Banco Central,Monetary,bce_ims11.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MVIS0000,depositos a la vista,Depósitos a la vista del Banco Central,Monetary,bce_ims11.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MOFE0000,oferta monetaria m1,Oferta Monetaria del Banco Central M1 (MCIR0000+MFRA0000+MELE0000+MVIS0000) ,Monetary,bce_ims11.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MCUA0000,cuasidinero,Cuasi-dinero del Banco Central,Monetary,bce_ims11.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MLIQ0000,liquidez total m2,Liquidez Total del Banco Central M2 (MOFE0000+MCUA0000),Monetary,bce_ims11.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MRBA0000,reservas bancarias,Reservas bancarias del Banco Central,Monetary,bce_ims11.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MBAS0000,base monetaria bm,Base Monetaria del Banco Central BM,Monetary,bce_ims11.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MMUL0000,multiplicador m1/bm,Multiplicador M1/BM (MOFE0000/MBAS0000),Monetary,bce_ims11.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,0,m
+MMUL0001,multiplicador m2/bm,Multiplicador M2/BM (MLIQ0000/MBAS0000),Monetary,bce_ims11.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,0,m
+MCAP0000,ims13_captaciones_cuasidinero_bancos_privados,Captaciones de cuasi-dinero de bancos privados,Monetary,bce_ims13.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MCAP0001,ims13_captaciones_cuasidinero_banecuador,Captaciones de cuasi-dinero del Banecuador,Monetary,bce_ims13.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MCAP0002,ims13_captaciones_cuasidinero_bde,Captaciones de cuasi-dinero del BDE,Monetary,bce_ims13.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MCAP0003,ims13_captaciones_cuasidinero_bev,Captaciones de cuasi-dinero del BEV,Monetary,bce_ims13.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MCAP0004,ims13_captaciones_cuasidinero_bnf,Captaciones de cuasi-dinero del BNF,Monetary,bce_ims13.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MCAP0010,ims13_captaciones_cuasidinero_cfn,Captaciones de cuasi-dinero del CFN,Monetary,bce_ims13.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MCAP0011,ims13_captaciones_cuasidinero_cooperativas,Captaciones de cuasi-dinero de cooperativas,Monetary,bce_ims13.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MCAP0012,ims13_captaciones_cuasidinero_mutualistas,Captaciones de cuasi-dinero de mutualistas,Monetary,bce_ims13.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MCAP0013,ims13_captaciones_cuasidinero_panorama_financiero,"Captaciones de cuasi-dinero, Panorama Financiero",Monetary,bce_ims13.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MCAP0014,ims13_captaciones_cuasidinero_sociedades_financieras,"Captaciones de cuasi-dinero, Sociedades Financieras",Monetary,bce_ims13.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MCAP0015,ims13_captaciones_cuasidinero_tarjetas_de_credito,"Captaciones de cuasi-dinero, Tarjetas de crédito",Monetary,bce_ims13.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MCAP0100,ims13_captaciones_depositos_vista_panorama_financiero,"Captaciones por Depósitos a la vista, Panorama Financiero",Monetary,bce_ims13.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MCAR0000,cartera_credito bancos privados,"Colocación de cartera, Bancos privados",Monetary,bce_ims14.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MCAR0001,cartera_credito banecuador,"Colocación de cartera, Banecuador",Monetary,bce_ims14.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MCAR0002,cartera_credito bde,"Colocación de cartera, BDE",Monetary,bce_ims14.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MCAR0003,cartera_credito bev,"Colocación de cartera, BEV",Monetary,bce_ims14.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MCAR0004,cartera_credito bnf,"Colocación de cartera, BNF",Monetary,bce_ims14.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MCAR0010,cartera_credito cfn,"Colocación de cartera, CFN",Monetary,bce_ims14.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MCAR0011,cartera_credito cooperativas,"Colocación de cartera, Cooperativas",Monetary,bce_ims14.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MCAR0012,cartera_credito mutualistas,"Colocación de cartera, Mutualistas",Monetary,bce_ims14.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MCAR0013,cartera_credito panorama financiero,"Colocación de cartera, Panorama financiero",Monetary,bce_ims14.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MCAR0014,cartera_credito sociedades financieras,"Colocación de cartera, Sociedades financieras",Monetary,bce_ims14.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+MCAR0015,cartera_credito tarjetas de credito,"Colocación de cartera, Tarjetas de crédito",Monetary,bce_ims14.csv,BCE,https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm,1,m
+PIPC0000,IPCO,Índice de Precios de la Construcción (IPCO),Prices,bce_ipco.csv,INEC,https://www.ecuadorencifras.gob.ec/indice-de-precios-de-la-construccion/,0,m
+TCOO0000,consumption_bdp,Consumo petrolero,Trade,bce_oil.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,,m
+TEXO0000,export_bdp,Exportaciones petroleras,Trade,bce_oil.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,,m
+TPRO0000,price_oil,Precio del petroleo,Trade,bce_oil.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,,m
+RPRO0001,production_bpd_diesel,Producción de Diesel,Real,bce_oil.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,,m
+RPRO0002,production_bpd_ecopais,Producción de eco país,Real,bce_oil.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,,m
+RPRO0003,production_bpd_ecoplus,Producción de eco plus,Real,bce_oil.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,,m
+RPRO0004,production_bpd_fueloil4,Producción de Fueloil 4,Real,bce_oil.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,,m
+RPRO0005,production_bpd_fueloil6,Producción de Fueloil 6,Real,bce_oil.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,,m
+RPRO0006,production_bpd_gasextra,Producción de gas extra,Real,bce_oil.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,,m
+RPRO0007,production_bpd_gassuper,Producción de gas súper,Real,bce_oil.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,,m
+RPRO0008,production_bpd_lpg,Producción de LPG,Real,bce_oil.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,,m
+RPRO0009,production_bpd_oil,Producción petrolera,Real,bce_oil.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,,m
+RPRO0000,production_bpd_other,Producción de otros hidrocarburos,Real,bce_oil.csv,BCE,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,,m
+RIND0100,total nacional indice de situacion presente,"Índice de Situación Presente, Total nacional",Real,bce_situacion.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+RIND0101,total nacional indice de expectativas,"Indice de Expectativas, Total nacional",Real,bce_situacion.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+RIND0102,total nacional indice de confianza del consumidor,"Indice de Confianza del Consumidor, Total nacional",Real,bce_situacion.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+RIND0110,urbano indice de situacion presente,"Índice de Situación Presente, Urbano",Real,bce_situacion.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+RIND0111,urbano indice de expectativas,"Indice de expectativas, Urbano",Real,bce_situacion.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+RIND0112,urbano indice de confianza del consumidor,"Indice de Confianza del Consumidor, Urbano",Real,bce_situacion.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+RIND0120,rural indice de situacion presente,"Índice de Situación Presente, Rural",Real,bce_situacion.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+RIND0121,rural indice de expectativas,"Indice de expectativas, Rural",Real,bce_situacion.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+RIND0122,rural indice de confianza del consumidor,"Indice de Confianza del Consumidor, Rural",Real,bce_situacion.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TREA0000,tdc efectivo real  ,Indices de tipo de cambio efectivo real,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TREA0001,tdc bilateral real estados unidos de america,Tipo de cambio real bilateral EEUU,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TREA0002,tdc bilateral real china,Tipo de cambio real bilateral China,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TREA0003,tdc bilateral real colombia,Tipo de cambio real bilateral Colombia,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TREA0004,tdc bilateral real mexico,Tipo de cambio real bilateral México,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TREA0005,tdc bilateral real peru,Tipo de cambio real bilateral Perú,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TREA0006,tdc bilateral real alemania,Tipo de cambio real bilateral Alemania,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TREA0007,tdc bilateral real panama,Tipo de cambio real bilateral Panamá,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TREA0008,tdc bilateral real espana,Tipo de cambio real bilateral España,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TREA0009,tdc bilateral real japon,Tipo de cambio real bilateral Japón,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TREA0010,tdc bilateral real brasil,Tipo de cambio real bilateral Brasil,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TREA0011,tdc bilateral real rusia,Tipo de cambio real bilateral Rusia,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TREA0012,tdc bilateral real corea del sur,Tipo de cambio real bilateral Corea del Sur,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TREA0013,tdc bilateral real holanda,Tipo de cambio real bilateral Holanda,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TREA0014,tdc bilateral real chile,Tipo de cambio real bilateral Chile,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TREA0015,tdc bilateral real italia,Tipo de cambio real bilateral Italia,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TREA0016,tdc bilateral real vietnam,Tipo de cambio real bilateral Vietnam,Trade,bce_tdc.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TUSD0000,tdc_usd colombia peso cop,Cotización del USD en Colombia,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TUSD0001,tdc_usd peru nuevo sol pen,Cotización del USD en Perú,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TUSD0002,tdc_usd argentina peso ars,Cotización del USD en Argentina,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TUSD0003,tdc_usd brasil real brl,Cotización del USD en Brasil,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TUSD0004,tdc_usd mexico peso mxn,Cotización del USD en México,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TUSD0005,tdc_usd venezuela bolivar veb,Cotización del USD en Venezuela,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TUSD0006,tdc_usd chile peso clp,Cotización del USD en Chile,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TUSD0007,tdc_usd reino unido libra gbp,Cotización del USD en Reino Unido,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TUSD0008,tdc_usd suiza franco chf,Cotización del USD en Suiza,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TUSD0009,tdc_usd japon yen jpy,Cotización del USD en Japón,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TUSD0010,tdc_usd deg,Cotización del USD Degis,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TUSD0011,tdc_usd euro eur,Cotización del USD en Europa,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TUSD0012,tdc_usd china yuan cny,Cotización del USD en China,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+TUSD0013,tdc_usd rusia rublo rub,Cotización del USD en Rusia,Trade,bce_tdc_usd.csv,BCE,https://contenido.bce.fin.ec/documentos/PublicacionesNotas/Catalogo/IEMensual/Indices/m2068062024.html,0,m
+EGEN0006,cenace_biogas,Generación eléctrica Biogas,Energy,cenace_power.csv,CENACE,http://www.cenace.gob.ec/wp-content/plugins/ez-addons/data/indicadores.xlsx,0,m
+EGEN0001,cenace_biomasa,Generación eléctrica Biomasa,Energy,cenace_power.csv,CENACE,http://www.cenace.gob.ec/wp-content/plugins/ez-addons/data/indicadores.xlsx,0,m
+EGEN0002,cenace_eolica,Generación eléctrica Eolica,Energy,cenace_power.csv,CENACE,http://www.cenace.gob.ec/wp-content/plugins/ez-addons/data/indicadores.xlsx,0,m
+EGEN0003,cenace_fotovoltaica,Generación eléctrica Fotovoltaica,Energy,cenace_power.csv,CENACE,http://www.cenace.gob.ec/wp-content/plugins/ez-addons/data/indicadores.xlsx,0,m
+EGEN0004,cenace_hidroelectrica,Generación eléctrica Hidroelectrica,Energy,cenace_power.csv,CENACE,http://www.cenace.gob.ec/wp-content/plugins/ez-addons/data/indicadores.xlsx,0,m
+EGEN0005,cenace_termica,Generación eléctrica Termica,Energy,cenace_power.csv,CENACE,http://www.cenace.gob.ec/wp-content/plugins/ez-addons/data/indicadores.xlsx,0,m
+EGEN0000,cenace_total,Generación eléctrica Total,Energy,cenace_power.csv,CENACE,http://www.cenace.gob.ec/wp-content/plugins/ez-addons/data/indicadores.xlsx,0,m
+MFLQ0000,cosede_liquidez,Fondo de liquidez,Monetary,cosede_lfsfp.csv,COSEDE,https://www.cosede.gob.ec/publicaciones-estadisticas-mensuales-pem/,1,
+TCOP0000,fred_DCOILWTICO,"Crude Oil Prices: West Texas Intermediate (WTI) - Cushing, Oklahoma",Trade,fred_data.csv,FRED,https://fred.stlouisfed.org/series/DCOILWTICO,0,d
+EUIE0000,fred_WUIECU,World Uncertainty Index for Ecuador,Expectations,fred_data.csv,FRED,https://fred.stlouisfed.org/series/WUIECU,0,q
+TIMP3310,fred_IMP3310,U.S. Imports of Goods by Customs Basis from Ecuador,Trade,fred_data.csv,FRED,https://fred.stlouisfed.org/series/IMP3310,0,q
+TEXP3310,fred_EXP3310,U.S. Exports of Goods by F.A.S. Basis to Ecuador,Trade,fred_data.csv,FRED,https://fred.stlouisfed.org/series/EXP3310,0,q
+LEMP0000,enemdu_desempleo,Desempleo,Labor,ine_labor.csv,INE,https://www.ecuadorencifras.gob.ec/estadisticas-laborales-enemdu/,0,m
+LEMP0010,enemdu_empleo,Empleo,Labor,ine_labor.csv,INE,https://www.ecuadorencifras.gob.ec/estadisticas-laborales-enemdu/,0,m
+LEMP0011,enemdu_empleo adecuado/pleno,Empleo Adecuado/Pleno,Labor,ine_labor.csv,INE,https://www.ecuadorencifras.gob.ec/estadisticas-laborales-enemdu/,0,m
+LPOB0000,enemdu_poblacion economicamente activa,Población Económicamente Activa,Labor,ine_labor.csv,INE,https://www.ecuadorencifras.gob.ec/estadisticas-laborales-enemdu/,0,m
+LPOB0001,enemdu_poblacion en edad de trabajar (pet),Población en Edad de Trabajar,Labor,ine_labor.csv,INE,https://www.ecuadorencifras.gob.ec/estadisticas-laborales-enemdu/,0,m
+LPOB0002,enemdu_poblacion total,Población Total,Labor,ine_labor.csv,INE,https://www.ecuadorencifras.gob.ec/estadisticas-laborales-enemdu/,0,m
+LEMP0020,enemdu_subempleo,Subempleo,Labor,ine_labor.csv,INE,https://www.ecuadorencifras.gob.ec/estadisticas-laborales-enemdu/,0,m
+LPOB0003,enemdu_poblacion economicamente activa trimestral,Población Económicamente Activa (Trimestral),Labor,ine_pea quarter.csv,INE,https://www.ecuadorencifras.gob.ec/estadisticas-laborales-enemdu/,0,q
+PPBR0000,enemdu_pobreza,Incidencia de pobreza por ingreso,Poverty,ine_pobreza.csv,INE,https://www.ecuadorencifras.gob.ec/estadisticas-laborales-enemdu/,0,s
+PPBR0001,enemdu_pobreza_extrema,Incidencia de pobreza extrema por ingreso,Poverty,ine_pobreza.csv,INE,https://www.ecuadorencifras.gob.ec/estadisticas-laborales-enemdu/,0,s
+PPBR0002,enemdu_gini_index,Coeficiente de Gini,Poverty,ine_pobreza.csv,INE,https://www.ecuadorencifras.gob.ec/estadisticas-laborales-enemdu/,0,s
+PINF0000,CPI EEUU,Inflación anual de Estados Unidos,Prices,international_data.csv,BC e INE de cada país,https://fred.stlouisfed.org/series/CPIAUCSL,0,m
+PINF0001,CPI CN,Inflación anual de China,Prices,international_data.csv,BC e INE de cada país,https://fred.stlouisfed.org/series/CHNCPIALLMINMEI,0,m
+PINF0002,CPI CO,Inflación anual de Colombia,Prices,international_data.csv,BC e INE de cada país,https://www.dane.gov.co/index.php/estadisticas-por-tema/precios-y-costos/indice-de-precios-al-consumidor-ipc,0,m
+PINF0003,CPI PE,Inflación anual de Perú,Prices,international_data.csv,BC e INE de cada país,https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PN38705PM/json/1980-01-01/,0,m
+GERO0001,gc_erogacion_no_permanente,Erogación no permanente del Gobierno Central,Government,mef_gc.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1,m
+GERO0002,gc_erogacion_permanente,Erogación permanente del Gobierno Central,Government,mef_gc.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1,m
+GERO0003,gc_erogacion_petrolera_gc,Erogación petrolera del Gobierno Central,Government,mef_gc.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1,m
+GINC0020,gc_ingresos_no_petroleros,Ingresos no petroleros del Gobierno Central,Government,mef_gc.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1,m
+GINC0010,gc_ingresos_petroleros,Ingresos petroleros del Gobierno Central,Government,mef_gc.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1,m
+GRES0000,gc_resultado_primario,Resultado primario del Gobierno Central,Government,mef_gc.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1,m
+GRES0020,gc_resultado_primario_no_petrolero,Resultado primario no petrolero del Gobierno Central,Government,mef_gc.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1,m
+GERO0000,gc_total_erogacion,"Erogación del Gobierno Central, Total",Government,mef_gc.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1,m
+GINC0000,gc_total_ingresos,"Ingresos del Gobierno Central, Total",Government,mef_gc.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1,m
+GERO0101,spnf_erogacion_no_permanente,Erogación no permanente del Sector Público No Financiero,Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1,m
+GERO0110,spnf_erogacion_operativa_epnf,Erogación operativa de Empresas Públicas No Financieras,Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1,m
+GERO0111,spnf_erogacion_operativa_petrolera_epnf,Erogación operativa petrolera de Empresas Públicas No Financieras,Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1,m
+GERO0102,spnf_erogacion_permanente,Erogación permanente del Sector Público No Financiero,Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1,m
+GERO0120,spnf_erogacion_petrolera_spnf,Erogación petrolera del Sector Público No Financiero,Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1,m
+GINC0130,spnf_ingreso_operativo_epnf,Ingreso operativo de Empresas Públicas No Financieras,Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1,m
+GINC0120,spnf_ingresos_no_petroleros,Ingresos no petroleros del Sector Público No Financiero,Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1,m
+GINC0110,spnf_ingresos_petroleros,Ingresos petroleros del Sector Público No Financiero,Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1,m
+GINC0111,spnf_ingresos_petroleros_epnf,Ingresos petroleros de Empresas Públicas No Financieras,Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1,m
+GRES0130,spnf_resultado_operacional_epnf,Resultado operacional de Empresas Públicas No Financieras,Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1,m
+GRES0131,spnf_resultado_operativo_petrolera_epnf,Resultado operativo petrolero de Empresas Públicas No Financieras,Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1,m
+GRES0100,spnf_resultado_primario,Resultado primario del Sector Público No Financiero,Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1,m
+GRES0101,spnf_resultado_primario_no_petrolero,Resultado primario no petrolero del Sector Público No Financiero,Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1,m
+GERO0100,spnf_total_erogaciones,"Erogaciones del Sector Público No Financiero, Total",Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1,m
+GINC0100,spnf_total_ingresos,"Ingresos del Sector Público No Financiero, Total",Government,mef_spnf.csv,MEF,https://www.finanzas.gob.ec/estadistica-nueva-metodologia-2013-2022/,1,m
+RIND0000,iaenp,Indice de Actividad Empresarial No Petrolera,Real,sri_iaenp.csv,SRI,https://www.sri.gob.ec/datasets,0,m
+RIND0001,indice manufacturas mensual,Indice Manufacturas,Real,sri_iaenp.csv,SRI,https://www.sri.gob.ec/datasets,0,m
+RIND0002,indice comercio mensual,Indice Comercio,Real,sri_iaenp.csv,SRI,https://www.sri.gob.ec/datasets,0,m
+RIND0003,indice construccion mensual,Indice Construcción,Real,sri_iaenp.csv,SRI,https://www.sri.gob.ec/datasets,0,m
+RIND0004,indice servicios mensual,Indice Servicios,Real,sri_iaenp.csv,SRI,https://www.sri.gob.ec/datasets,0,m
+RVEN0001,ventas_netas_tarifa_12,Ventas netas registradas con tarifa diferente de 0,Real,sri_ventas.csv,SRI,https://www.sri.gob.ec/datasets,1,m
+RVEN0002,ventas_netas_tarifa_0,Ventas netas registradas con tarifa 0,Real,sri_ventas.csv,SRI,https://www.sri.gob.ec/datasets,1,m
+RVEN0010,exportaciones,Exportaciones de bienes y servicios,Real,sri_ventas.csv,SRI,https://www.sri.gob.ec/datasets,1,m
+RCOM0001,compras_netas_tarifa_12,Compras y adquisiciones declaradas por el propio contribuyente con tarifa diferente de cero,Real,sri_ventas.csv,SRI,https://www.sri.gob.ec/datasets,1,m
+RCOM0002,compras_netas_tarifa_0,Compras y adquisiciones declaradas por el propio contribuyente con tarifa cero,Real,sri_ventas.csv,SRI,https://www.sri.gob.ec/datasets,1,m
+RCOM0010,importaciones,Importaciones de bienes y servicios,Real,sri_ventas.csv,SRI,https://www.sri.gob.ec/datasets,1,m
+RCOM0003,compras_rise,Compras realizadas a los contribuyentes inscritos en el Régimen Simplificado (RISE),Real,sri_ventas.csv,SRI,https://www.sri.gob.ec/datasets,1,m
+RCOM0004,total_compras,Total de compras y adquisiciones declaradas por el propio contribuyente,Real,sri_ventas.csv,SRI,https://www.sri.gob.ec/datasets,1,m
+RVEN0000,total_ventas,"Ventas, Total",Real,sri_ventas.csv,SRI,https://www.sri.gob.ec/datasets,1,m
+FEMB0000,bcrp_embig,Spread - EMBIG Ecuador (pbs),Finances,bcrp_embig.csv,BCRP,https://estadisticas.bcrp.gob.pe/estadisticas/series/diarias/resultados/PD04712XD/html,0,d
+FEMB0001,bcrp_embigdiff,Diferencial de Rendimientos del Índice de Bonos de Mercados Emergentes (EMBIG) - Ecuador,Finances,bcrp_embig.csv,BCRP,https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PN01134XM/html,0,d
+PCPI0000,cpi,Indice de Precios al Consumidor,Prices,ine_cpi.csv,INE,https://www.ecuadorencifras.gob.ec/indice-de-precios-al-consumidor/,0,m
+PIPP0000,ipp,Indice de Precios al Productor,Prices,ine_ipp.csv,INE,https://www.ecuadorencifras.gob.ec/indice-de-precios-al-productor-de-disponibilidad-nacional/,0,m
+RREC0000,1 sri impuesto a la renta recaudado,Recaudación del SRI: Impuesto a la Renta Recaudado,Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC0100,2 sri retenciones mensuales,"Recaudación del SRI: Impuesto a la Renta Recaudado, Retenciones Mensuales",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC0101,3 sri autorretenciones,"Recaudación del SRI: Impuesto a la Renta Recaudado, RM, Autorretenciones",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC0200,4 sri a la renta empresas petroleras y otros nep,"Recaudación del SRI: Impuesto a la Renta Recaudado, A la renta empresas petroleras y otros NEP",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC0300,5 sri anticipos al ir,"Recaudación del SRI: Impuesto a la Renta Recaudado, Anticipos al IR",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC0400,6 sri declaraciones de impuesto a la renta,"Recaudación del SRI: Impuesto a la Renta Recaudado, Declaraciones de Impuesto a la Renta",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC0401,7 sri personas naturales,"Recaudación del SRI: Impuesto a la Renta Recaudado, DIR, Personas Naturales",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC0402,8 sri personas juridicas,"Recaudación del SRI: Impuesto a la Renta Recaudado, DIR, Personas Jurídicas",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC0403,"9 sri herencias, legados y donaciones","Recaudación del SRI: Impuesto a la Renta Recaudado, DIR, Herencias, Legados y Donaciones",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC0404,10 sri microempresas,"Recaudación del SRI: Impuesto a la Renta Recaudado, DIR, Regularización de Activos en el Exterior",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC1000,12 sri impuesto al valor agregado,Recaudación del SRI: Impuesto al Valor Agregado,Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC1100,13 sri iva operaciones internas,"Recaudación del SRI: IVA, Operaciones Internas",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC1101,14 sri ajuste retenciones iva petroleras,"Recaudación del SRI: IVA, OI, Ajustes retenciones IVA petroleras",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC1200,15 sri iva importaciones,"Recaudación del SRI: IVA, Importaciones",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC2000,16 sri impuesto a los consumos especiales,Recaudación del SRI: Impuesto a los Consumos Especiales,Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC2100,17 sri ice operaciones internas,"Recaudación del SRI: ICE, Operaciones Internas",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC2101,19 sri ice alcohol y productos alcoholicos,"Recaudación del SRI: ICE, OI, Alcohol y Productos Alcohólicos",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC2102,20 sri ice armas de fuego,"Recaudación del SRI: ICE, OI, Armas de fuego",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC2103,"21 sri ice aviones, tricares,etc. y otros nep","Recaudación del SRI: ICE, OI, Aviones, tricares, etc y otros NEP",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC2104,22 sri ice bebidas energizantes,"Recaudación del SRI: ICE, OI, Bebidas energizantes",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC2105,23 sri ice bebidas gaseosas,"Recaudación del SRI: ICE, OI, Bebidas gaseosas",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC2106,24 sri ice bebidas no alcoholicas,"Recaudación del SRI: ICE, OI, Bebidas no alcohólicas",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC2107,25 sri ice cerveza,"Recaudación del SRI: ICE, OI, Cerveza",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC2108,26 sri ice cigarrillos,"Recaudación del SRI: ICE, OI, Cigarrillos",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC2109,28 sri ice cuotas membresias clubes,"Recaudación del SRI: ICE, OI, Cuotas de Membresías de Clubes",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC2110,30 sri ice fundas plasticas,"Recaudación del SRI: ICE, OI, Fundas Plásticas",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC2111,"31 sri ice perfumes, aguas de tocador","Recaudación del SRI: ICE, OI, Perfumes y Aguas de Tocador",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC2112,32 sri ice servicios casino - juegos azar,"Recaudación del SRI: ICE, OI, Servicios de Casino y Juegos de Azar",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC2113,33 sri ice servicios television prepagada,"Recaudación del SRI: ICE, OI, Servicios de Televisión Prepagada",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC2114,35 sri ice telefonia,"Recaudación del SRI: ICE, OI, Telefonía",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC2115,36 sri ice vehiculos,"Recaudación del SRI: ICE, OI, Vehículos",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC2116,37 sri ice videojuegos,"Recaudación del SRI: ICE, OI, Videojuegos",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC2117,38 sri ice no especificado,"Recaudación del SRI: ICE, OI, No especificado",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC2200,39 sri ice importaciones,"Recaudación del SRI: ICE, Importaciones",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC3000,40 sri impuesto redimible botellas plasticas no retornable,Recaudación del SRI: Impuesto Redimible de Botellas Plásticas no Retornable,Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC3001,41 sri impuesto a los vehiculos motorizados,Recaudación del SRI: Impuesto a los Vehículos Motorizados,Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC3002,42 sri impuesto a la salida de divisas,Recaudación del SRI: Impuesto a la Salida de Divisas,Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC3003,43 sri impuesto activos en el exterior,Recaudación del SRI: Impuesto de Activos en el Exterior,Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC4000,"44 sri regalias, patentes y utilidades de conservacion minera","Recaudación del SRI: Regalías, patentes y utilidades de conservación minera",Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC5000,45 sri contribucion para la atencion integral del cancer,Recaudación del SRI: Contribución para la atención integral del cáncer,Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC6000,46 sri intereses por mora tributaria,Recaudación del SRI: Intereses por Mora Tributaria,Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC7000,47 sri multas tributarias fiscales,Recaudación del SRI: Multas Tributarias Fiscales,Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RREC8000,48 sri otros ingresos,Recaudación del SRI: Otros Ingresos,Real,sri_recaudacion.csv,SRI,https://www.sri.gob.ec/estadisticas-generales-de-recaudacion-sri,1,m
+RCAR0000,total car sales,Vehículos nuevos y reportados de ventas al SRI,Real,sri_totalcar.csv,SRI,https://www.sri.gob.ec/datasets,0,m
+RVAR0000,sri_vat,"SRI valores recaudados mensualmente, valor ",Real,sri_vat_timeseries.csv,SRI,https://www.sri.gob.ec/datasets,1,m
+RVAR0001,sri_transactions,"SRI valores recaudados mensualmente, total de transacciones",Real,sri_vat_timeseries.csv,SRI,https://www.sri.gob.ec/datasets,0,m
+UNTL1001,ntl_airport,Serie de luminosidad nocturna agregada por industria: aeropuertos,Unstructured,ntl_bysector.csv,NOAA ,https://ladsweb.modaps.eosdis.nasa.gov/,0,d
+UNTL1002,ntl_consumption,Serie de luminosidad nocturna agregada por industria: establecimientos de consumo,Unstructured,ntl_bysector.csv,NOAA ,https://ladsweb.modaps.eosdis.nasa.gov/,0,d
+UNTL1003,ntl_hotel,Serie de luminosidad nocturna agregada por industria: hoteles,Unstructured,ntl_bysector.csv,NOAA ,https://ladsweb.modaps.eosdis.nasa.gov/,0,d
+UNTL1004,ntl_manufacture,Serie de luminosidad nocturna agregada por industria: manufactura,Unstructured,ntl_bysector.csv,NOAA ,https://ladsweb.modaps.eosdis.nasa.gov/,0,d
+UNTL1005,ntl_ports,Serie de luminosidad nocturna agregada por industria: puertos,Unstructured,ntl_bysector.csv,NOAA ,https://ladsweb.modaps.eosdis.nasa.gov/,0,d
+UNTL1006,ntl_public square,Serie de luminosidad nocturna agregada por industria: plazas publicas,Unstructured,ntl_bysector.csv,NOAA ,https://ladsweb.modaps.eosdis.nasa.gov/,0,d
+UNTL1007,ntl_transport,Serie de luminosidad nocturna agregada por industria: transporte terrestre,Unstructured,ntl_bysector.csv,NOAA ,https://ladsweb.modaps.eosdis.nasa.gov/,0,d
+FDEB1000,spnf consolidada total deuda publica agregada mas otras obligaciones,Total deuda publica consolidada mas otras obligaciones,Finances,mef_deuda.csv,MEF,https://www.finanzas.gob.ec/https-wwwdeuda-publica-nueva-metodologia/,1,m
+FDEB1001,spnf consolidada total deuda publica externa mas otras obligaciones,Total deuda publica externa consolidada mas otras obligaciones,Finances,mef_deuda.csv,MEF,https://www.finanzas.gob.ec/https-wwwdeuda-publica-nueva-metodologia/,1,m
+FDEB1002,spnf consolidada total deuda publica interna mas otras obligaciones ,Total deuda publica interna consolidada mas otras obligaciones,Finances,mef_deuda.csv,MEF,https://www.finanzas.gob.ec/https-wwwdeuda-publica-nueva-metodologia/,1,m
+FDEB2000,spnf agg total deuda publica agregada mas otras obligaciones,Total deuda publica agregada mas otras obligaciones,Finances,mef_deuda.csv,MEF,https://www.finanzas.gob.ec/https-wwwdeuda-publica-nueva-metodologia/,1,m
+FDEB2001,spnf agg total deuda publica externa mas otras obligaciones,Total deuda publica externa agregada mas otras obligaciones,Finances,mef_deuda.csv,MEF,https://www.finanzas.gob.ec/https-wwwdeuda-publica-nueva-metodologia/,1,m
+FDEB2002,spnf agg total deuda publica interna mas otras obligaciones ,Total deuda publica interna agregada mas otras obligaciones,Finances,mef_deuda.csv,MEF,https://www.finanzas.gob.ec/https-wwwdeuda-publica-nueva-metodologia/,1,m
+UGOO001,ecuador flights ,Google Trends Indice de Busqueda Vuelos a Ecuador (Mundo),Unstructured,gtrends.csv,Google,,0,m
+UGOO002,ecuador hotels ,Google Trends Indice de Busqueda Hoteles Ecuador (Mundo),Unstructured,gtrends.csv,Google,,0,m
+UGOO003,restaurante EC,Google Trends Indice de Busqueda Restaurante,Unstructured,gtrends.csv,Google,,0,m
+UGOO004,toyota EC,Google Trends Indice de Busqueda Toyota,Unstructured,gtrends.csv,Google,,0,m
+UGOO005,empleo EC,Google Trends Indice de Busqueda Empleo,Unstructured,gtrends.csv,Google,,0,m
+UGOO006,kia EC,Google Trends Indice de Busqueda KIA,Unstructured,gtrends.csv,Google,,0,m
+UGOO007,rappi EC,Google Trends Indice de Busqueda Rappi,Unstructured,gtrends.csv,Google,,0,m
+UGOO008,Linkedin EC,Google Trends Indice de Busqueda Linkedin,Unstructured,gtrends.csv,Google,,0,m
+UGOO009,opcion empleo EC,Google Trends Indice de Busqueda Opcion Empleo,Unstructured,gtrends.csv,Google,,0,m
+UGOO010,computrabajo EC,Google Trends Indice de Busqueda CompuTrabajo,Unstructured,gtrends.csv,Google,,0,m
+UGOO011,trabajo remoto EC,Google Trends Indice de Busqueda Trabajo Remoto,Unstructured,gtrends.csv,Google,,0,m
+UGOO012,Wendy's EC,Google Trends Indice de Busqueda Wendy's,Unstructured,gtrends.csv,Google,,0,m
+UGOO013,KFC EC,Google Trends Indice de Busqueda KFC,Unstructured,gtrends.csv,Google,,0,m
+UGOO014,McDonalds EC,Google Trends Indice de Busqueda McDonalds,Unstructured,gtrends.csv,Google,,0,m
+UGOO015,Apple EC,Google Trends Indice de Busqueda Apple,Unstructured,gtrends.csv,Google,,0,m
+UGOO016,Samsung EC,Google Trends Indice de Busqueda Samsung,Unstructured,gtrends.csv,Google,,0,m
+UGOO017,iphone EC,Google Trends Indice de Busqueda iPhone,Unstructured,gtrends.csv,Google,,0,m
+UGOO018,android EC,Google Trends Indice de Busqueda Android,Unstructured,gtrends.csv,Google,,0,m
+UGOO019,mac EC,Google Trends Indice de Busqueda Mac,Unstructured,gtrends.csv,Google,,0,m
+UGOO020,HP EC,Google Trends Indice de Busqueda HP,Unstructured,gtrends.csv,Google,,0,m
+UGOO021,Dell EC,Google Trends Indice de Busqueda DELL,Unstructured,gtrends.csv,Google,,0,m
+UGOO022,Tablets EC,Google Trends Indice de Busqueda Tablets,Unstructured,gtrends.csv,Google,,0,m
+UGOO023,Facebook Market EC,Google Trends Indice de Busqueda Facebook Market,Unstructured,gtrends.csv,Google,,0,m
+UGOO024,Facebook Marketplace EC,Google Trends Indice de Busqueda Facebook Marketplace,Unstructured,gtrends.csv,Google,,0,m
+UGOO025,Hipermarket EC,Google Trends Indice de Busqueda Hipermarket,Unstructured,gtrends.csv,Google,,0,m
+UGOO026,Tuti EC,Google Trends Indice de Busqueda Tuti,Unstructured,gtrends.csv,Google,,0,m
+UGOO027,Megamaxi EC,Google Trends Indice de Busqueda Megamaxi,Unstructured,gtrends.csv,Google,,0,m
+UGOO028,netflix EC,Google Trends Indice de Busqueda Netflix,Unstructured,gtrends.csv,Google,,0,m
+UGOO029,amazon prime EC,Google Trends Indice de Busqueda Amazon Prime,Unstructured,gtrends.csv,Google,,0,m
+UGOO030,HBO EC,Google Trends Indice de Busqueda HBO,Unstructured,gtrends.csv,Google,,0,m
+UGOO031,HBO Max EC,Google Trends Indice de Busqueda HBO Max,Unstructured,gtrends.csv,Google,,0,m
+UGOO032,conciertos EC,Google Trends Indice de Busqueda Conciertos,Unstructured,gtrends.csv,Google,,0,m
+UGOO033,cine EC,Google Trends Indice de Busqueda Cine,Unstructured,gtrends.csv,Google,,0,m
+UGOO034,Bitcoin EC,Google Trends Indice de Busqueda Bitcoin,Unstructured,gtrends.csv,Google,,0,m
+UGOO035,Suzuki EC,Google Trends Indice de Busqueda Suzuki,Unstructured,gtrends.csv,Google,,0,m
+UGOO036,Hyundai EC,Google Trends Indice de Busqueda Hyundai,Unstructured,gtrends.csv,Google,,0,m
+UGOO037,BMW EC,Google Trends Indice de Busqueda BMW,Unstructured,gtrends.csv,Google,,0,m
+UGOO038,Nissan EC,Google Trends Indice de Busqueda Nissan,Unstructured,gtrends.csv,Google,,0,m
+UGOO039,Honda EC,Google Trends Indice de Busqueda Honda,Unstructured,gtrends.csv,Google,,0,m
+UGOO040,Accord EC,Google Trends Indice de Busqueda Accord,Unstructured,gtrends.csv,Google,,0,m
+UGOO041,alquiler departamentos EC,Google Trends Indice de Busqueda Alquiler Departamentos,Unstructured,gtrends.csv,Google,,0,m
+UGOO042,Banco Pichincha EC,Google Trends Indice de Busqueda Banco Pichincha,Unstructured,gtrends.csv,Google,,0,m
+UGOO043,Produbanco EC,Google Trends Indice de Busqueda Produbanco,Unstructured,gtrends.csv,Google,,0,m
+UGOO044,Banco Guayaquil EC,Google Trends Indice de Busqueda Banco Guayaquil,Unstructured,gtrends.csv,Google,,0,m
+UGOO045,vuelos miami EC,Google Trends Indice de Busqueda Vuelos Miami,Unstructured,gtrends.csv,Google,,0,m
+UGOO046,vuelos madrid EC,Google Trends Indice de Busqueda Vuelos Madrid,Unstructured,gtrends.csv,Google,,0,m
+UGOO047,Fedex EC,Google Trends Indice de Busqueda Fedex,Unstructured,gtrends.csv,Google,,0,m
+UGOO048,DHL EC,Google Trends Indice de Busqueda Dhl,Unstructured,gtrends.csv,Google,,0,m
